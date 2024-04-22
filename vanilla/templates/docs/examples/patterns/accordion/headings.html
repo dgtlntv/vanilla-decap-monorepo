@@ -1,0 +1,47 @@
+{% extends "_layouts/examples.html" %}
+{% block title %}Accordion / Headings{% endblock %}
+
+{% block standalone_css %}patterns_accordion{% endblock %}
+
+{% block content %}
+<aside class="p-accordion">
+  <ul class="p-accordion__list">
+    <li class="p-accordion__group">
+      <h2 class="p-accordion__heading">
+        <button type="button" class="p-accordion__tab" id="tab0" aria-controls="tab0-section" aria-expanded="true">What is MAAS?</button>
+      </h2>
+      <section class="p-accordion__panel" id="tab0-section" aria-hidden="false" aria-labelledby="tab0">
+        <p>MAAS expands to “Metal As A Service” – it converts bare-metal servers into cloud instances of virtual machines. There is no need to manage individual units. You can quickly provision or destroy machines, as if they were instances hosted in a public cloud like Amazon AWS, Google GCE, or Microsoft Azure.</p>
+      </section>
+    </li>
+    <li class="p-accordion__group">
+      <h3 class="p-accordion__heading">
+        <button type="button" class="p-accordion__tab" id="tab1" aria-controls="tab1-section" aria-expanded="false">What MAAS offers</button>
+      </h3>
+      <section class="p-accordion__panel" id="tab1-section" aria-hidden="true" aria-labelledby="tab1">
+        <p>MAAS can manage a large number of physical machines by merging them into user-defined resource pools. MAAS automatically provisions participating machines and makes them available for use. You can return unused machines to the assigned pool at any time.</p>
+      </section>
+    </li>
+    <li class="p-accordion__group">
+      <h4 class="p-accordion__heading">
+        <button type="button" class="p-accordion__tab" id="tab2" aria-controls="tab2-section" aria-expanded="false">How MAAS works</button>
+      </h4>
+      <section class="p-accordion__panel" id="tab2-section" aria-hidden="true" aria-labelledby="tab2">
+        <p>When you add a new machine to MAAS, or elect to add a machine that MAAS has enlisted, MAAS commissions it for service and adds it to the pool. At that point, the machine is ready for use. MAAS keeps things simple, marking machines as “New,” “Commissioning,” “Ready,” and so on.</p>
+      </section>
+    </li>
+    <li class="p-accordion__group">
+      <h5 class="p-accordion__heading">
+        <button type="button" class="p-accordion__tab" id="tab3" aria-controls="tab3-section" aria-expanded="false">Colocation of key components</button>
+      </h5>
+      <section class="p-accordion__panel" id="tab3-section" aria-hidden="true" aria-labelledby="tab3">
+        <p>MAAS relies on two key components: the region controller and the rack controller. The region controller handles operator requests; the rack controller provides high-bandwidth services to multiple racks.</p>
+      </section>
+    </li>
+  </ul>
+</aside>
+
+<script>
+  {% include 'docs/examples/patterns/accordion/_script.js' %}
+</script>
+{% endblock %}

@@ -1,0 +1,10 @@
+@import '../vanilla';
+@include vf-base;
+
+@include vf-p-icons;
+
+// for spin animation on the spinner icon
+@include vf-u-animations;
+// for dark strip background
+@include vf-p-strip;
+@include vf-u-padding-collapse;

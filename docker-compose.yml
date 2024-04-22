@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+    oauth:
+        build:
+            context: ./oauth
+            dockerfile: Dockerfile
+        environment:
+            - NODE_ENV=production
+            - ORIGINS=www.iii.ooo, iii.ooo
+            - OAUTH_CLIENT_ID=788bff304c85caaea254
+            - OAUTH_CLIENT_SECRET=9a89c6dd284c6810f77803c3c411ee60ebcc03d0
+        ports:
+            - "3000:3000"
+
+    vanilla:
+        build:
+            context: ./vanilla
+            dockerfile: Dockerfile
+            args:
+                BUILD_ID: test
+        environment:
+            - SECRET_KEY=insecure_dev_key
+        ports:
+            - "8080:80"

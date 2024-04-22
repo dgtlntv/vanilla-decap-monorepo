@@ -1,0 +1,11 @@
+// styles specific for the example pages
+
+@import '../vanilla';
+@include vf-u-baseline-grid;
+@include vf-u-theme-toggle;
+
+// stylelint-disable selector-max-type -- examples can use type selectors
+body {
+  margin: 1rem;
+}
+// stylelint-enable selector-max-type

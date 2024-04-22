@@ -1,0 +1,363 @@
+{% extends "_layouts/examples.html" %}
+{% block title %}Snapcraft publicise page{% endblock %}
+
+{% block style %}
+<style>
+  @media only screen and (min-width: 1030px) {
+      .l-docs-title,.l-docs-title[class^='p-strip'] {
+          background-color:transparent;
+          padding-bottom: 0
+      }
+  }
+
+  @media only screen and (max-width: 1030px) {
+      .l-docs-title,.l-docs-title[class^='p-strip'] {
+          background-color:transparent;
+          padding-bottom: 0
+      }
+  }
+
+  .l-docs-title__heading {
+      border-bottom: 1px solid #cdcdcd;
+      padding-bottom: 1rem
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<header id="navigation" class="p-navigation is-dark">
+  <div class="p-navigation__row">
+    <div class="p-navigation__banner">
+      <div class="p-navigation__logo">
+        <a class="p-navigation__item" href="#">
+          <img class="p-navigation__image" src="https://assets.ubuntu.com/v1/7f93bb62-snapcraft-logo--web-white-text.svg" alt="Snapcraft">
+        </a>
+      </div>
+      <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
+      <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
+    </div>
+    <nav class="p-navigation__nav" aria-label="Example main">
+      <span class="u-off-screen">
+        <a href="#main-content">Jump to main content</a>
+      </span>
+      <ul class="p-navigation__items">
+        <li class="p-navigation__item">
+          <a class="p-navigation__link" href="#store">
+            Store
+          </a>
+        </li>
+        <li class="p-navigation__item">
+          <a class="p-navigation__link" href="#blog">
+            Blog
+          </a>
+        </li>
+        <li class="p-navigation__item">
+          <a class="p-navigation__link" href="#iot">
+            IoT
+          </a>
+        </li>
+        <li class="p-navigation__item">
+          <a class="p-navigation__link" href="#build">
+            Build
+          </a>
+        </li>
+        <li class="p-navigation__item">
+          <a class="p-navigation__link" href="#docs/">
+            Docs
+          </a>
+        </li>
+        <li class="p-navigation__item">
+          <a class="p-navigation__link" href="#tutorials">
+            Tutorials
+          </a>
+        </li>
+        <li class="p-navigation__item">
+          <a class="p-navigation__link" href="#">
+            Forum
+          </a>
+        </li>
+      </ul>
+
+      <ul class="p-navigation__items">
+          <li class="p-navigation__item--dropdown-toggle" id="link-1">
+            <a class="p-navigation__link" aria-controls="account-menu" aria-expanded="false" href="#">
+              Bartosz Szopka
+            </a>
+            <ul class="p-navigation__dropdown--right" id="account-menu" aria-hidden="true">
+              <li>
+                <a href="#account/snaps" class="p-navigation__dropdown-item">My published snaps</a>
+              </li>
+              <li>
+                <a href="#build" class="p-navigation__dropdown-item">Build with GitHub</a>
+              </li>
+              <li>
+                <a href="#account/details" class="p-navigation__dropdown-item">Account details</a>
+              </li>
+              <li>
+                <a href="#logout" class="p-navigation__dropdown-item">Sign out</a>
+              </li>
+            </ul>
+          </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div id="main-content">
+  <section class="p-strip is-shallow u-no-padding--bottom">
+    <div class="u-fixed-width">
+      <a href="#snaps">‹ My snaps</a>
+      <h1 class="p-heading--3">
+        my-awesome-snap
+      </h1>
+
+      <nav class="p-tabs" aria-label="Example tabs navigation">
+        <ul class="p-tabs__list u-float-right u-no-margin--bottom" role="tablist">
+          <li class="p-tabs__item" role="presentation">
+            <a data-tour="listing-intro" href="#listing" class="p-tabs__link" tabindex="0" role="tab">
+              Listing
+            </a>
+          </li>
+          <li class="p-tabs__item" role="presentation">
+            <a href="#builds" class="p-tabs__link" tabindex="0" role="tab">
+            Builds
+            </a>
+          </li>
+          <li class="p-tabs__item" role="presentation">
+            <a href="#releases" class="p-tabs__link" tabindex="0" role="tab">
+              Releases
+            </a>
+          </li>
+          <li class="p-tabs__item" role="presentation">
+            <a href="#metrics" class="p-tabs__link" tabindex="0" role="tab">
+              Metrics
+            </a>
+          </li>
+          <li class="p-tabs__item" role="presentation">
+            <a href="#publicise" class="p-tabs__link" tabindex="0" role="tab" aria-selected="true">
+              Publicise
+            </a>
+          </li>
+          <li class="p-tabs__item" role="presentation">
+            <a href="#settings" class="p-tabs__link" tabindex="0" role="tab">
+              Settings
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  <div class="p-strip is-shallow">
+    <div class="row">
+      <div class="col-3">
+        <nav class="p-side-navigation" aria-label="Example side navigation">
+          <ul class="p-side-navigation__list">
+            <li class="p-side-navigation__item">
+              <a class="p-side-navigation__link" aria-current="page" href="#publicise">Snap Store buttons</a>
+            </li>
+            <li class="p-side-navigation__item">
+              <a class="p-side-navigation__link" href="#publicise/badges">GitHub badges</a>
+            </li>
+            <li class="p-side-navigation__item">
+              <a class="p-side-navigation__link" href="#publicise/cards">Embeddable cards</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-9">
+
+        <div class="row">
+          <h4>Promote your snap using Snap Store badges</h4>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <label for="select-language">Language:</label>
+          </div>
+          <div class="col-7">
+            <form class="p-form--inline js-language-select">
+              <select id="select-language" name="language">
+                  <option value="de">Deutsch</option>
+                  <option value="en" selected="">English</option>
+                  <option value="es">Español</option>
+                  <option value="fr">Français</option>
+                  <option value="it">Italiano</option>
+                  <option value="jp">日本語</option>
+                  <option value="pl">Polski</option>
+                  <option value="pt">Português</option>
+                  <option value="ru">русский язык</option>
+                  <option value="tw">中文（台灣）</option>
+              </select>
+            </form>
+            <p>You can help translate these buttons <a href="#" target="_blank">in this repository</a>.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <hr />
+        </div>
+
+        <div id="en_content" class="js-language-content">
+          <div class="row">
+            <div class="col-2">
+            </div>
+            <div class="col-7">
+              <div class="row">
+                <div class="col-5">
+                  <p class="snapcraft-publicise__images">
+
+                    <a href="#">
+                      <img alt="Get it from the Snap Store" src="https://assets.ubuntu.com/v1/03dad919-%5BEN%5D-snap-store-black-uneditable.svg">
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-2">
+              <label>HTML:</label>
+            </div>
+            <div class="col-7">
+              <pre ><code id="snippet-en-black-html0">&lt;a href="https://snapcraft.io/my-awesome-snap"&gt;
+  &lt;img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" /&gt;
+&lt;/a&gt;</code></pre>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-2">
+              <label>Markdown:</label>
+            </div>
+            <div class="col-7">
+              <pre><code id="snippet-en-black-md0">[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/my-awesome-snap)</code></pre>
+            </div>
+          </div>
+
+          <div class="row">
+            <hr />
+          </div>
+
+          <div class="row">
+            <div class="col-2">
+            </div>
+            <div class="col-7">
+              <div class="row">
+                <div class="col-5">
+                  <p class="snapcraft-publicise__images">
+
+                    <a href="#">
+                      <img alt="Get it from the Snap Store" src="https://assets.ubuntu.com/v1/fa3c60f8-%5BEN%5D-snap-store-white-uneditable.svg">
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-2">
+              <label>HTML:</label>
+            </div>
+            <div class="col-7">
+              <pre ><code id="snippet-en-black-html1">&lt;a href="https://snapcraft.io/my-awesome-snap"&gt;
+  &lt;img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-white.svg" /&gt;
+&lt;/a&gt;</code></pre>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-2">
+              <label>Markdown:</label>
+            </div>
+            <div class="col-7">
+              <pre><code id="snippet-en-black-md1">[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/my-awesome-snap)</code></pre>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <hr />
+        </div>
+
+        <div class="row">
+          <div class="col-2">
+            Download all:
+          </div>
+          <div class="col-7">
+            <a href="#" class="p-button">zip</a>
+            <a href="#" class="p-button">tar.gz</a>
+            <a href="#" target="_blank">View image licence</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer class="p-strip--highlighted p-sticky-footer" id="footer">
+  <div class="row">
+    <div class="col-9">
+      <p>
+        <a class="p-link--soft" href="#">Back to top<i class="p-icon--top"></i></a>
+      </p>
+      <p>
+        © 2020 Canonical Ltd. <br>
+        Ubuntu and Canonical are registered trademarks of Canonical Ltd.
+        <br>
+        Powered by <a href="#">Charmed Kubernetes</a>
+      </p>
+      <p class="u-no-limit">
+        <small>
+          <a href="#">Join the forum</a>, contribute to or report problems with,
+          <a href="#">snapd</a>,
+          <a href="#">Snapcraft</a>,
+          or
+          <a href="#">this site</a>.
+        </small>
+      </p>
+    </div>
+    <div class="col-3">
+       <ul class="p-inline-list u-align--right">
+         <li class="p-inline-list__item">
+           <a href="#" class="p-icon--twitter">Share on Twitter</a>
+         </li>
+         <li class="p-inline-list__item">
+           <a href="#" class="p-icon--facebook">Share on Facebook</a>
+         </li>
+         <li class="p-inline-list__item">
+           <a href="#" class="p-icon--youtube">Share on YouTube</a>
+         </li>
+       </ul>
+     </div>
+  </div>
+  <div class="u-fixed-width">
+    <ul class="p-inline-list--middot u-no-margin--bottom">
+      <li class="p-inline-list__item">
+        <a class="p-link--soft" accesskey="6" href="#"><small>Legal information</small></a>
+      </li>
+      <li class="p-inline-list__item">
+        <a class="p-link--soft" accesskey="7" href="#"><small>Data privacy</small></a>
+      </li>
+      <li class="p-inline-list__item">
+        <a class="p-link--soft" accesskey="8" href="#"><small>Service status</small></a>
+      </li>
+      <li class="p-inline-list__item">
+        <a class="p-link--soft" accesskey="9" href="#"><small>Other functions</small></a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+  {% include "docs/examples/patterns/side-navigation/_example_script.js" %}
+</script>
+<script>
+  {% include 'docs/examples/patterns/navigation/_script.js' %}
+  initNavDropdowns('.p-navigation__item--dropdown-toggle')
+</script>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "_layouts/examples.html" %}
+{% block title %}Strip / Shallow{% endblock %}
+
+{% block standalone_css %}patterns_strip{% endblock %}
+
+{% set is_paper = True %}
+{% block content %}
+<section class="p-strip is-shallow">
+  <div class="row--25-75">
+    <div class="col">
+      <h2>The fastest way to go from development to production in IoT</h2>
+      <p>Learn about how Ubuntu Core and snaps can help you build your connected devices.</p>
+    </div>
+  </div>
+</section>
+{% endblock %}

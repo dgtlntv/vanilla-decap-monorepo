@@ -1,0 +1,32 @@
+{% extends "_layouts/examples.html" %}
+{% block title %}Modal / Default{% endblock %}
+
+{% block standalone_css %}patterns_modal{% endblock %}
+
+{% block content %}
+<button id="showModal" aria-controls="modal">Show modal&hellip;</button>
+
+<div class="p-modal" id="modal">
+  <section class="p-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description">
+    <header class="p-modal__header">
+      <h2 class="p-modal__title" id="modal-title">Help</h2>
+      <button class="p-modal__close" aria-label="Close active modal" aria-controls="modal">Close</button>
+    </header>
+    <p id="modal-description">Learn how to operate production-ready clusters.</p>
+    <div class="p-heading-icon--small">
+      <div class="p-heading-icon__header">
+        <img class="p-heading-icon__img" src="https://assets.ubuntu.com/v1/b81a45e4-kubernetes.svg"  alt=""/>
+        <p><a class="p-heading-icon__title" href="#tutorial/get-started-canonical-kubernetes">Kubernetes tutorial</a></p>
+      </div>
+      <div class="p-heading-icon__header">
+        <img class="p-heading-icon__img" src="https://assets.ubuntu.com/v1/5e3456e3-hadoop.svg"  alt=""/>
+        <p><a class="p-heading-icon__title" href="#tutorial/get-started-hadoop-spark">Hadoop Spark tutorial</a></p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+  {% include 'docs/examples/patterns/modal/_script.js' %}
+</script>
+{% endblock %}

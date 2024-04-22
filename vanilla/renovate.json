@@ -1,0 +1,23 @@
+{
+  "extends": ["config:base", "group:allNonMajor", "schedule:monthly"],
+  "labels": ["Maintenance 🔨"],
+  "dependencyDashboard": false,
+  "packageRules": [
+    {
+      "groupName": "internal dependencies",
+      "groupSlug": "internal",
+      "packagePatterns": ["^@canonical", "^canonicalwebteam", "^vanilla-framework"],
+      "schedule": ["at any time"]
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["cimg/python"],
+      "allowedVersions": "<=3.8"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["node"],
+      "versioning": "node"
+    }
+  ]
+}

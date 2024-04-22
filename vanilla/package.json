@@ -1,0 +1,78 @@
+{
+  "name": "vanilla-framework",
+  "version": "4.11.0",
+  "author": {
+    "email": "webteam@canonical.com",
+    "name": "Canonical Webteam"
+  },
+  "bugs": {
+    "email": "webteam@canonical.com",
+    "url": "https://github.com/canonical/vanilla-framework/issues"
+  },
+  "description": "A simple, extendable CSS framework.",
+  "homepage": "https://vanillaframework.io/",
+  "keywords": [
+    "ubuntu",
+    "vanilla",
+    "framework",
+    "CSS",
+    "SASS",
+    "SCSS",
+    "mixin",
+    "module"
+  ],
+  "license": "LGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/canonical/vanilla-framework"
+  },
+  "scripts": {
+    "start": "yarn build && yarn serve",
+    "build": "yarn build-scss && yarn build-js && yarn build-class-references",
+    "build-scss": "sass --load-path=node_modules --embed-sources --style=compressed scss:build/css && postcss --use autoprefixer --replace 'build/css/**/*.css' --map",
+    "build:essential": "yarn run build-js && sass --load-path=node_modules --embed-sources --style=compressed scss/build.scss:build/css/build.css scss/docs:build/css/docs && postcss --use autoprefixer --replace 'build/css/**/*.css' --map",
+    "build-js": "mkdir -p build/js/modules && cp node_modules/@canonical/cookie-policy/build/js/cookie-policy.js build/js/modules && cp node_modules/@canonical/latest-news/dist/latest-news.js build/js/modules",
+    "build-class-references": "node scripts/create-class-references.js",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "serve": "./entrypoint 0.0.0.0:${PORT}",
+    "test-scss": "node -e 'require(\"./tests/parker\").parkerTest()'",
+    "test-spelling": "mdspell templates/docs/**/*.md -r -n -a --en-gb",
+    "test": "yarn lint-scss && yarn lint-prettier &&  yarn test-spelling && yarn test-scss",
+    "lint-prettier": "prettier -c .",
+    "lint-scss": "stylelint 'scss/**/*.scss'",
+    "watch:scss": "sass --load-path=node_modules --embed-sources --style=compressed scss:build/css --watch",
+    "watch:essential": "sass --load-path=node_modules --embed-sources --style=compressed scss/build.scss:build/css/build.css --watch",
+    "watch": "yarn build && yarn watch:scss",
+    "clean": "rm -rf build docs/static/css node_modules/ yarn-error.log",
+    "percy": "percy snapshot snapshots.js",
+    "icon-svgs-to-mixins": "node scripts/convert-svgs-to-icon-mixins.js icons"
+  },
+  "files": [
+    "_index.scss",
+    "/scss",
+    "!/scss/docs",
+    "!/scss/standalone"
+  ],
+  "devDependencies": {
+    "@canonical/cookie-policy": "3.6.0",
+    "@canonical/latest-news": "1.5.0",
+    "@percy/cli": "1.28.2",
+    "@testing-library/cypress": "10.0.1",
+    "autoprefixer": "10.4.19",
+    "cypress": "13.7.1",
+    "markdown-spellcheck": "1.3.1",
+    "parker": "0.0.10",
+    "postcss": "8.4.38",
+    "postcss-cli": "11.0.0",
+    "postcss-scss": "4.0.9",
+    "prettier": "3.2.5",
+    "sass": "1.72.0",
+    "stylelint": "16.3.1",
+    "stylelint-config-recommended-scss": "14.0.0",
+    "stylelint-order": "6.0.4",
+    "stylelint-prettier": "5.0.0",
+    "svgo": "3.2.0",
+    "yaml": "2.4.1"
+  }
+}

@@ -1,0 +1,17 @@
+{% extends "_layouts/examples.html" %}
+{% block title %}Forms / Fieldset{% endblock %}
+
+{% block standalone_css %}base{% endblock %}
+
+{% block content %}
+<form>
+  <fieldset>
+    <label for="list-input-1">First name</label>
+    <input placeholder="Joe" id="list-input-1" name="list-input-1" type="text" autocomplete="given-name">
+    <label for="list-input-2">Last name</label>
+    <input placeholder="Bloggs" id="list-input-2" name="list-input-2" type="text" autocomplete="family-name">
+    <label for="list-input-3">Email address</label>
+    <input placeholder="example@canonical.com" id="list-input-3" type="email" autocomplete="email">
+  </fieldset>
+</form>
+{% endblock %}

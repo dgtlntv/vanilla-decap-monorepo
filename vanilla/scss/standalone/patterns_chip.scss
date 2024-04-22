@@ -1,0 +1,7 @@
+@import '../vanilla';
+@include vf-base;
+
+@include vf-p-chip;
+
+// needed for dark background examples
+@include vf-p-strip;
