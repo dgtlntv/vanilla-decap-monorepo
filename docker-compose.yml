@@ -7,7 +7,7 @@ services:
             dockerfile: Dockerfile
         environment:
             - NODE_ENV=production
-            - ORIGINS=www.iii.ooo, iii.ooo
+            - ORIGINS=www.dgtln.tv,dgtln.tv
             - OAUTH_CLIENT_ID=788bff304c85caaea254
             - OAUTH_CLIENT_SECRET=9a89c6dd284c6810f77803c3c411ee60ebcc03d0
         ports:
@@ -23,3 +23,10 @@ services:
             - SECRET_KEY=insecure_dev_key
         ports:
             - "8080:80"
+
+    nginx:
+        image: nginx:latest
+        ports:
+            - "80:80"
+        volumes:
+            - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
