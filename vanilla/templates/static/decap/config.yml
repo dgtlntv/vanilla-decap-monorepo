@@ -1,7 +1,10 @@
+publish_mode: editorial_workflow
+
 backend:
   name: github
   repo: dgtlntv/vanilla-decap-monorepo # Path to your Github/Gitlab repository
   branch: main # Branch to update
+  open_authoring: true
   base_url: https://auth.dgtln.tv # Path to ext auth provider
 
 media_folder: 'images/uploads' # Media files will be stored in the repo under images/uploads
