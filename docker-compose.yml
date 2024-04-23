@@ -20,6 +20,8 @@ services:
             - ORIGINS=www.dgtln.tv,dgtln.tv
             - OAUTH_CLIENT_ID=788bff304c85caaea254
             - OAUTH_CLIENT_SECRET=9a89c6dd284c6810f77803c3c411ee60ebcc03d0
+        expose:
+            - 3000
         ports:
             - "3000:3000"
 
@@ -31,5 +33,7 @@ services:
                 BUILD_ID: test
         environment:
             - SECRET_KEY=insecure_dev_key
+        expose:
+            - 8080
         ports:
             - "8080:80"
