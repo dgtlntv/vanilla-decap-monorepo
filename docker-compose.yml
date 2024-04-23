@@ -34,6 +34,6 @@ services:
         environment:
             - SECRET_KEY=insecure_dev_key
         expose:
-            - 8080
+            - 8101
         ports:
-            - "8080:80"
+            - "8101:8101"
