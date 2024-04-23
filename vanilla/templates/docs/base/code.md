@@ -1,14 +1,17 @@
 ---
-wrapper_template: '_layouts/docs.html'
+wrapper_template: _layouts/docs.html
 context:
   title: Code | Base elements
+title: "123"
+date: 2024-04-23T14:22:00.000Z
+thumbnail: /images/uploads/image.png
+rating: 1
 ---
-
 Vanilla gives you multiple ways to display code using the standard HTML elements.
 
 ## Inline
 
-When you refer to code inline with other text, use the <code>&lt;code></code> tag.
+When you refer to code inline with other text, use the <code>&lt;code></code> tag.asd asdasdasdasd
 
 <div class="embedded-example"><a href="/docs/examples/base/code-inline/" class="js-example">
 View example of inline code
