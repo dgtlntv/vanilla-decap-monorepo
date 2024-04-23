@@ -9,7 +9,7 @@ media_folder: 'images/uploads' # Media files will be stored in the repo under im
 collections:
   - name: 'components' # Used in routes, e.g., /admin/collections/blog
     label: 'Components' # Used in the UI
-    folder: 'templates/docs/base' # The path to the folder where the documents are stored
+    folder: 'vanilla/templates/docs/base' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
