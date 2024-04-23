@@ -10,15 +10,68 @@ backend:
 media_folder: 'images/uploads' # Media files will be stored in the repo under images/uploads
 
 collections:
-  - name: 'components' # Used in routes, e.g., /admin/collections/blog
-    label: 'Components' # Used in the UI
-    folder: 'vanilla/templates/docs/base' # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog'}
-      - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Publish Date', name: 'date', widget: 'datetime'}
-      - {label: 'Featured Image', name: 'thumbnail', widget: 'image'}
-      - {label: 'Rating (scale of 1-5)', name: 'rating', widget: 'number'}
+  - name: 'base'
+    label: 'Base'
+    folder: 'vanilla/templates/docs/base'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: 'Context'
+        name: 'context'
+        collapse: false
+        widget: object
+        fields:
+          - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+  - name: 'layouts'
+    label: 'Layouts'
+    folder: 'vanilla/templates/docs/layouts'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: 'Context'
+        name: 'context'
+        collapse: false
+        widget: object
+        fields:
+          - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+  - name: 'patterns'
+    label: 'Patterns'
+    folder: 'vanilla/templates/docs/patterns'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: 'Context'
+        name: 'context'
+        collapse: false
+        widget: object
+        fields:
+          - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+  - name: 'settings'
+    label: 'Settings'
+    folder: 'vanilla/templates/docs/settings'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: 'Context'
+        name: 'context'
+        collapse: false
+        widget: object
+        fields:
+          - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+  - name: 'utilities'
+    label: 'Utilities'
+    folder: 'vanilla/templates/docs/utilities'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: 'Context'
+        name: 'context'
+        collapse: false
+        widget: object
+        fields:
+          - {label: 'Title', name: 'title', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
