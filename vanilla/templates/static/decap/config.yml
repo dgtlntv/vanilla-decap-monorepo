@@ -25,7 +25,7 @@ collections:
         fields:
           - {label: 'Title', name: 'title', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
-    identifier_field: 'context.title'
+    summary: '{{dirname}}'
   - name: 'layouts'
     label: 'Layouts'
     folder: 'vanilla/templates/docs/layouts'
@@ -41,7 +41,7 @@ collections:
         fields:
           - {label: 'Title', name: 'title', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
-    identifier_field: 'context.title'
+    summary: '{{dirname}}'
   - name: 'patterns'
     label: 'Patterns'
     folder: 'vanilla/templates/docs/patterns'
@@ -57,7 +57,7 @@ collections:
         fields:
           - {label: 'Title', name: 'title', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
-    identifier_field: 'context.title'
+    summary: '{{dirname}}'
   - name: 'settings'
     label: 'Settings'
     folder: 'vanilla/templates/docs/settings'
@@ -73,7 +73,7 @@ collections:
         fields:
           - {label: 'Title', name: 'title', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
-    identifier_field: 'context.title'
+    summary: '{{dirname}}'
   - name: 'utilities'
     label: 'Utilities'
     folder: 'vanilla/templates/docs/utilities'
@@ -89,4 +89,4 @@ collections:
         fields:
           - {label: 'Title', name: 'title', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
-    identifier_field: 'context.title'
+    summary: '{{dirname}}'
