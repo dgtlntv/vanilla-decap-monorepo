@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Heading icon | Components
+  title: Heading icon | Accessibility
 ---
 
 ## How it works

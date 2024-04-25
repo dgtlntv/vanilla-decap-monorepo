@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Status labels | Components
+  title: Status labels | Code Guidelines
 ---
 
 Status labels are static elements which you can apply to signify status, tags or any other information you find useful.

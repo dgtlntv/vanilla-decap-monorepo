@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Matrix | Components
+  title: Matrix | Design guidelines
 ---
 
 ## Overview

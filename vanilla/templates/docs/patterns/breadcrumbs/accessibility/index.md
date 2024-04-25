@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Breadcrumbs | Components
+  title: Breadcrumbs | Accessibility
 ---
 
 ## How it works

@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Lists | Components
+  title: Lists | Code Guidelines
 ---
 
 If you want to display lists in a way that is more visually distinctive than the

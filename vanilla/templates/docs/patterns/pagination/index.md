@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Pagination | Components
+  title: Pagination | Code Guidelines
 ---
 
 Use the pagination component to paginate large sets of data:

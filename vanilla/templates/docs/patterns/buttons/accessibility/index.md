@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Test
+  title: Buttons | Accessibility
 ---
 
 ## How it works

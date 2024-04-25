@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Navigation | Components
+  title: Navigation | Code Guidelines
 ---
 
 ## Global navigation

@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Switch | Components
+  title: Switch | Code Guidelines
 ---
 
 You can use this switch component to display on and off content, such as for settings or simple controls. By changing the `aria-checked` attribute from true or false will animate the switch on/off.

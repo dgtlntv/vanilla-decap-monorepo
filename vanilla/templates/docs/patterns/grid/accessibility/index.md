@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Grid | Components
+  title: Grid | Accessibility
 ---
 
 ## How it works

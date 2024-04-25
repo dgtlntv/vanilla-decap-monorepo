@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Section | Components
+  title: Section | Code Guidelines
 ---
 
 Use section components to wrap around parts of content on the page. They are used for managing the bottom space after each element.

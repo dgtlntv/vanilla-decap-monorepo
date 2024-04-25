@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Breadcrumbs | Components
+  title: Breadcrumbs | Code Guidelines
 ---
 
 You can use the breadcrumbs pattern to indicate where the current page sits in the site's navigation.

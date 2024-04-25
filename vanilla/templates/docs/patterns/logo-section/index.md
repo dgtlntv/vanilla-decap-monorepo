@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Logo section | Components
+  title: Logo section | Code Guidelines
 ---
 
 The logo section pattern can be used to showcase a group of related images, such as a group of customer or partner logos.

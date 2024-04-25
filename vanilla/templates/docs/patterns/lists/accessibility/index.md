@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Lists | Components
+  title: Lists | Accessibility
 ---
 
 ## How it works

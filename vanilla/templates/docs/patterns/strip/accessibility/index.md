@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Strip | Components
+  title: Strip | Accessibility
 ---
 
 ## How it works

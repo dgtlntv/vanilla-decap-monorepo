@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Rule | Components
+  title: Rule | Code Guidelines
 ---
 
 The rule component indicates the beginning of a new group of elements. This might be at the section level, or between more granular elements, like paragraphs.

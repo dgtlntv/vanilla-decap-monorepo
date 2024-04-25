@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Deprecated strips | Components
+  title: Deprecated strips | Deprecated
 ---
 
 <div class="p-notification--negative">

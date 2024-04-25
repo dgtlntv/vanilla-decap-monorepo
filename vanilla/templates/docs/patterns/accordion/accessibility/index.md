@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Accordion | Components
+  title: Accordion | Accessibility
 ---
 
 ## How it works

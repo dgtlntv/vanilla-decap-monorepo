@@ -2,7 +2,7 @@
 collection: patterns
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Contextual menu | Components
+  title: Contextual menu | Design guidelines
 ---
 
 ## Overview

@@ -2,7 +2,7 @@
 collection: patterns
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Contextual menu | Components
+  title: Contextual menu | Code Guidelines
 ---
 
 A contextual menu can be applied to any button, link or navigation item that requires a secondary menu. To interact with the menu it will require some javascript to hide/show each pattern. This is achieved by finding the toggle element `p-contextual-menu__toggle` and what it controls `aria-controls`.

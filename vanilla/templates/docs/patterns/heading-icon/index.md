@@ -2,7 +2,7 @@
 collection: patterns
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Heading icon | Components
+  title: Heading icon | Code Guidelines
 ---
 
 A heading can be emphasised by adding an icon alongside the text.

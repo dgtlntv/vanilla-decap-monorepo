@@ -2,7 +2,7 @@
 collection: patterns
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Media object | Components
+  title: Media object | Code Guidelines
 ---
 
 A media object should be used to display events or articles.

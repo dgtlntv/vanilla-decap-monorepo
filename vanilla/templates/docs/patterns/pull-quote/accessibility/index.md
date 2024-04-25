@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Pull quote | Components
+  title: Pull quote | Accessibility
 ---
 
 ## How it works

@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Logo section | Components
+  title: Logo section | Accessibility
 ---
 
 ## How it works

@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Suru | Components
+  title: Suru | Code Guidelines
 ---
 
 The Suru component can be used to provide a background for hero section of the page or to display a visual separation between two sections of content.

@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Tabs | Components
+  title: Tabs | Accessibility
 ---
 
 ## How it works

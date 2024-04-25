@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Tooltips | Components
+  title: Tooltips | Accessibility
 ---
 
 ## How it works

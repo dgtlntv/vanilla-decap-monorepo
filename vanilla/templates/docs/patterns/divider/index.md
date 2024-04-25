@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Divider | Components
+  title: Divider | Code Guidelines
 ---
 
 ## Responsive divider
