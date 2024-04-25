@@ -14,7 +14,7 @@ collections:
     label: 'Base'
     folder: 'vanilla/templates/docs/base'
     create: true
-    slug: '{{context.path}}'
+    slug: '{{context.title}}'
     nested:
       depth: 100
     fields:
@@ -24,14 +24,15 @@ collections:
         widget: object
         fields:
           - {label: 'Title', name: 'title', widget: 'string'}
-          - {label: 'Path', name: 'path', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
     summary: '{{dirname}}'
+    meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
   - name: 'layouts'
     label: 'Layouts'
+    label_singular: 'Layout'
     folder: 'vanilla/templates/docs/layouts'
     create: true
-    slug: '{{context.path}}'
+    slug: '{{context.title}}'
     nested:
       depth: 100
     fields:
@@ -41,14 +42,15 @@ collections:
         widget: object
         fields:
           - {label: 'Title', name: 'title', widget: 'string'}
-          - {label: 'Path', name: 'path', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
     summary: '{{dirname}}'
+    meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
   - name: 'patterns'
     label: 'Patterns'
+    label_singular: 'Pattern'
     folder: 'vanilla/templates/docs/patterns'
     create: true
-    slug: '{{context.path}}'
+    slug: '{{context.title}}'
     nested:
       depth: 100
     fields:
@@ -58,14 +60,15 @@ collections:
         widget: object
         fields:
           - {label: 'Title', name: 'title', widget: 'string'}
-          - {label: 'Path', name: 'path', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
     summary: '{{dirname}}'
+    meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
   - name: 'settings'
     label: 'Settings'
+    label_singular: 'Setting'
     folder: 'vanilla/templates/docs/settings'
     create: true
-    slug: '{{context.path}}'
+    slug: '{{context.title}}'
     nested:
       depth: 100
     fields:
@@ -75,6 +78,6 @@ collections:
         widget: object
         fields:
           - {label: 'Title', name: 'title', widget: 'string'}
-          - {label: 'Path', name: 'path', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
     summary: '{{dirname}}'
+    meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
