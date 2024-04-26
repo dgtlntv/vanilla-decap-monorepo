@@ -6,6 +6,8 @@ context:
 
 ## How it works
 
+### Hello world
+
 Accordions are a vertically stacked list of headings. They reduce the need for users to scroll through a lot of content, as the headings act as interactive elements which show or hide the related content.
 
 `Tab` and `Shift-Tab` are used to navigate forward and backward through each accordion header and all focusable elements in the accordion should be included in the tab order. `Enter` or `Space` expand and collapse each accordion panel.
