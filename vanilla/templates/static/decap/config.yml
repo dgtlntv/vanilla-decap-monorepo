@@ -45,10 +45,10 @@ collections:
       - {label: 'Body', name: 'body', widget: 'markdown'}
     summary: '{{dirname}}'
     meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
-  - name: 'patterns'
-    label: 'Patterns'
-    label_singular: 'Pattern'
-    folder: 'vanilla/templates/docs/patterns'
+  - name: 'components'
+    label: 'Components'
+    label_singular: 'Component'
+    folder: 'vanilla/templates/docs/components'
     create: true
     slug: '{{context.title}}'
     nested:
