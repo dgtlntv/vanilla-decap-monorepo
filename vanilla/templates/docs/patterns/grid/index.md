@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Grid | Code Guidelines
+  title: Grid | Implementation
 ---
 
 ## Structure

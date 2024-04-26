@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Accordion | Components
+  title: Accordion | Implementation
 ---
 
 The sidebar accordion, used in listing pages or as navigation, can hold multiple navigation items or to be used as a filter for content.

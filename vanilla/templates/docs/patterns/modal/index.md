@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Modal | Code Guidelines
+  title: Modal | Implementation
 ---
 
 The modal component can be used to overlay an area of the screen which can contain a prompt, dialog or interaction.

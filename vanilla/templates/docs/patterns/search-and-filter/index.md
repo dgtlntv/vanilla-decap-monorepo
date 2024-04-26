@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Search and filter | Code Guidelines
+  title: Search and filter | Implementation
 ---
 
 This pattern provides the ability to search and apply filter chips with a panel listing available options.

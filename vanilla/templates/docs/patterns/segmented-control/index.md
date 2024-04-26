@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Segmented control | Code Guidelines
+  title: Segmented control | Implementation
 ---
 
 Segmented control can be used in two ways:

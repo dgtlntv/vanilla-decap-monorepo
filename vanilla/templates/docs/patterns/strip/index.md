@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Strip | Code Guidelines
+  title: Strip | Implementation
 ---
 
 The strip pattern provides a full width strip container in which to wrap a grid. It is an alternative to the section component, that surrounds its content with a padding both on the top and bottom, and is used usually when a change of the background is needed or to separate different sections of the page.

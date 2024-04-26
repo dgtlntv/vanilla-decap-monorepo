@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Table of contents | Code Guidelines
+  title: Table of contents | Implementation
 ---
 
 A table of contents can be used to display supplementary links to a page.

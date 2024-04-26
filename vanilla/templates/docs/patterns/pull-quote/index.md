@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Pull quote | Code Guidelines
+  title: Pull quote | Implementation
 ---
 
 Use the pull quote pattern to highlight content from different sources in a

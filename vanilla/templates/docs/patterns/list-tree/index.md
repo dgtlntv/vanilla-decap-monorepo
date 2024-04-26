@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: List tree | Code Guidelines
+  title: List tree | Implementation
 ---
 
 The list tree pattern can be used to show a directory style listing, such as a list of files and folders within a directory.

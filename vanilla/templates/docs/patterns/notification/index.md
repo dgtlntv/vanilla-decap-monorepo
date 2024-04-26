@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Notification | Code Guidelines
+  title: Notification | Implementation
 ---
 
 Notifications are used to attract the user's attention. They offer four separate severity levels, and can also be modified for use in different contexts.

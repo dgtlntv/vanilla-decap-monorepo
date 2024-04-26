@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Tooltips | Code Guidelines
+  title: Tooltips | Implementation
 ---
 
 Tooltips are text labels that appear when the user hovers over, focuses on, or touches an element on the screen.

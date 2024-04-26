@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Buttons | Code Guidelines
+  title: Buttons | Implementation
 ---
 
 Buttons are clickable elements used to perform an action, you can apply `button` classes on buttons and link elements.

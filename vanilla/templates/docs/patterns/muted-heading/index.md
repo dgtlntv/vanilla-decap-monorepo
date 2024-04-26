@@ -2,7 +2,7 @@
 collection: patterns
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Muted heading | Code Guidelines
+  title: Muted heading | Implementation
 ---
 
 A muted heading can be used to subtly provide context to content without the heading itself being too prominent.

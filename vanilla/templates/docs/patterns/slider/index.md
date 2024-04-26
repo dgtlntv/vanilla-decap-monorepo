@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Slider | Code Guidelines
+  title: Slider | Implementation
 ---
 
 The `p-slider__wrapper` and `p-slider__input` classes should be used with `<input type="range">` elements

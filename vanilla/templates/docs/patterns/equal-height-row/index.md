@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Equal height row | Code Guidelines
+  title: Equal height row | Implementation
 ---
 
 The equal height row component aims to provide consistent alignment for grid items within a row format. This is achieved using the CSS `subgrid` feature which allows column grids to share the same layout used in the parent row grid.

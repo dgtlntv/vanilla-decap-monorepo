@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Search box | Code Guidelines
+  title: Search box | Implementation
 ---
 
 Search boxes enable search functionality on a page and are typically used in a navigation bar.

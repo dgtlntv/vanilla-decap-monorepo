@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Matrix | Code Guidelines
+  title: Matrix | Implementation
 ---
 
 The matrix component can be useful to display a selection of items in a format that is less linear than a normal list, using an image to describe each item.

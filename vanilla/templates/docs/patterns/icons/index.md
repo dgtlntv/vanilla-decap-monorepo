@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Icons | Code Guidelines
+  title: Icons | Implementation
   extra_stylesheet: build/css/standalone/patterns_icons-additional.css
 ---
 

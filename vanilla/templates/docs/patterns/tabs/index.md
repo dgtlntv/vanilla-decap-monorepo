@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Tabs | Code Guidelines
+  title: Tabs | Implementation
 ---
 
 Tabs organise and allow navigation between groups of content that are related and at the same level of hierarchy.

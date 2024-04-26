@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Badge | Code Guidelines
+  title: Badge | Implementation
 ---
 
 A badge is a visual indicator only for numeric values. It is static and not interactive. There are two variants:
