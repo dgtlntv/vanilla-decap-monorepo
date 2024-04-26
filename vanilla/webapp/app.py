@@ -171,6 +171,8 @@ def global_template_context():
             .replace("/design/", "")
             .replace("/accessibility", "")
             .replace("/design-guidelines", "")
+            .replace("/figma", "")
+            .replace("/react", "")
         )
 
         docs_slug = "" if docs_slug == "/docs" else docs_slug
