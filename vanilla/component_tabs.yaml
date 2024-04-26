@@ -1,136 +1,136 @@
 # Settings: accessibility, design_guidelines
 
-patterns/accordion:
+components/accordion:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/badge:
+components/badge:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/breadcrumbs:
+components/breadcrumbs:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/buttons:
+components/buttons:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/card:
+components/card:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/chip:
+components/chip:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/contextual-menu:
+components/contextual-menu:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/grid:
+components/grid:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/heading-icon:
+components/heading-icon:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/icons:
+components/icons:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/links:
+components/links:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/lists:
+components/lists:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/logo-section:
+components/logo-section:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/matrix:
+components/matrix:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/modal:
+components/modal:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/navigation:
+components/navigation:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/notification:
+components/notification:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/pagination:
+components/pagination:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/pull-quote:
+components/pull-quote:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/search-box:
+components/search-box:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/segmented-control:
+components/segmented-control:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/slider:
+components/slider:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/status-labels:
+components/status-labels:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/strip:
+components/strip:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/switch:
+components/switch:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/tabs:
+components/tabs:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-patterns/tooltips:
+components/tooltips:
   accessibility: True
   design_guidelines: True
   react: True

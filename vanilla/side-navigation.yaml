@@ -29,83 +29,83 @@
 - heading: Components
   subheadings:
     - title: Accordion
-      url: /docs/patterns/accordion
+      url: /docs/components/accordion
     - title: Equal height row
-      url: /docs/patterns/equal-height-row
+      url: /docs/components/equal-height-row
     - title: Badge
-      url: /docs/patterns/badge
+      url: /docs/components/badge
     - title: Breadcrumbs
-      url: /docs/patterns/breadcrumbs
+      url: /docs/components/breadcrumbs
     - title: Buttons
-      url: /docs/patterns/buttons
+      url: /docs/components/buttons
     - title: Cards
-      url: /docs/patterns/card
+      url: /docs/components/card
     - title: Chips
-      url: /docs/patterns/chip
+      url: /docs/components/chip
     - title: Contextual menu
-      url: /docs/patterns/contextual-menu
+      url: /docs/components/contextual-menu
     - title: Divider
-      url: /docs/patterns/divider
+      url: /docs/components/divider
     - title: Empty state
-      url: /docs/patterns/empty-state
+      url: /docs/components/empty-state
     - title: Grid
-      url: /docs/patterns/grid
+      url: /docs/components/grid
     - title: Heading icon
-      url: /docs/patterns/heading-icon
+      url: /docs/components/heading-icon
     - title: Icons
-      url: /docs/patterns/icons
+      url: /docs/components/icons
     - title: Images
-      url: /docs/patterns/images
+      url: /docs/components/images
     - title: Links
-      url: /docs/patterns/links
+      url: /docs/components/links
     - title: List tree
-      url: /docs/patterns/list-tree
+      url: /docs/components/list-tree
     - title: Lists
-      url: /docs/patterns/lists
+      url: /docs/components/lists
     - title: Logo section
-      url: /docs/patterns/logo-section
+      url: /docs/components/logo-section
     - title: Matrix
-      url: /docs/patterns/matrix
+      url: /docs/components/matrix
     - title: Media object
-      url: /docs/patterns/media-object
+      url: /docs/components/media-object
     - title: Modal
-      url: /docs/patterns/modal
+      url: /docs/components/modal
     - title: Muted heading
-      url: /docs/patterns/muted-heading
+      url: /docs/components/muted-heading
     - title: Navigation
-      url: /docs/patterns/navigation
+      url: /docs/components/navigation
     - title: Notifications
-      url: /docs/patterns/notification
+      url: /docs/components/notification
     - title: Pagination
-      url: /docs/patterns/pagination
+      url: /docs/components/pagination
     - title: Quotes
-      url: /docs/patterns/pull-quote
+      url: /docs/components/pull-quote
     - title: Rule
-      url: /docs/patterns/rule
+      url: /docs/components/rule
     - title: Search and filter
-      url: /docs/patterns/search-and-filter
+      url: /docs/components/search-and-filter
     - title: Search box
-      url: /docs/patterns/search-box
+      url: /docs/components/search-box
     - title: Sections
-      url: /docs/patterns/section
+      url: /docs/components/section
     - title: Segmented control
-      url: /docs/patterns/segmented-control
+      url: /docs/components/segmented-control
     - title: Slider
-      url: /docs/patterns/slider
+      url: /docs/components/slider
     - title: Status labels
-      url: /docs/patterns/status-labels
+      url: /docs/components/status-labels
     - title: Strip
-      url: /docs/patterns/strip
+      url: /docs/components/strip
     - title: Suru
-      url: /docs/patterns/suru
+      url: /docs/components/suru
     - title: Switch
-      url: /docs/patterns/switch
+      url: /docs/components/switch
     - title: Table of contents
-      url: /docs/patterns/table-of-contents
+      url: /docs/components/table-of-contents
     - title: Tabs
-      url: /docs/patterns/tabs
+      url: /docs/components/tabs
     - title: Tooltips
-      url: /docs/patterns/tooltips
+      url: /docs/components/tooltips
 - heading: Utilities
   subheadings:
     - title: Align
