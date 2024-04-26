@@ -2,59 +2,136 @@
 
 patterns/accordion:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/badge:
   accessibility: True
   design_guidelines: True
+  react: True
+  figma: True
 patterns/breadcrumbs:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/buttons:
   accessibility: True
   design_guidelines: True
+  react: True
+  figma: True
 patterns/card:
   accessibility: True
-patterns/chip:
   design_guidelines: True
+  react: True
+  figma: True
+patterns/chip:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/contextual-menu:
   accessibility: True
   design_guidelines: True
+  react: True
+  figma: True
 patterns/grid:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/heading-icon:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/icons:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/links:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/lists:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/logo-section:
   accessibility: True
-patterns/matrix:
   design_guidelines: True
+  react: True
+  figma: True
+patterns/matrix:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/modal:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/navigation:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/notification:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/pagination:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/pull-quote:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/search-box:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/segmented-control:
+  accessibility: True
   design_guidelines: True
+  react: True
+  figma: True
 patterns/slider:
+  accessibility: True
   design_guidelines: True
+  react: True
+  figma: True
 patterns/status-labels:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/strip:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/switch:
   accessibility: True
   design_guidelines: True
+  react: True
+  figma: True
 patterns/tabs:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 patterns/tooltips:
   accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True

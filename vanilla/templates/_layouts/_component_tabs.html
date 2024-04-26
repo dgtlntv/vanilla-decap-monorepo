@@ -3,7 +3,7 @@
   <ul class="p-tabs__list">
     <li class="p-tabs__item">
       <a href="/docs/{{ slug }}" class="p-tabs__link" {% if "/docs/" in path and "/accessibility" not in path
-        and "/design-guidelines" not in path %}aria-selected="true" {% endif %}>Implementation</a>
+        and "/design-guidelines" not in path and "/figma" not in path and "/react" not in path%}aria-selected="true" {% endif %}>Implementation</a>
     </li>
     {% if page_tabs.accessibility %}
     <li class="p-tabs__item">
@@ -14,6 +14,16 @@
     {% if page_tabs.design_guidelines %}
     <li class="p-tabs__item">
       <a href="/docs/{{ slug }}/design-guidelines" class="p-tabs__link" {% if "/design-guidelines" in path %}aria-selected="true" {% endif%}>Design guidelines</a>
+    </li>
+    {% endif %}
+    {% if page_tabs.figma %}
+    <li class="p-tabs__item">
+      <a href="/docs/{{ slug }}/figma" class="p-tabs__link" {% if "/figma" in path %}aria-selected="true" {% endif%}>Figma</a>
+    </li>
+    {% endif %}
+    {% if page_tabs.react %}
+    <li class="p-tabs__item">
+      <a href="/docs/{{ slug }}/react" class="p-tabs__link" {% if "/react" in path %}aria-selected="true" {% endif%}>React</a>
     </li>
     {% endif %}
   </ul>
