@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Badge | Design guidelines
+  title: Cards | Design guidelines
 ---
 
 ## Overview
