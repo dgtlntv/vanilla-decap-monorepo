@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Links | Implementation
+  title: Link | Implementation
 ---
 
 Links are used to embed actions or pathways to more information, allowing users to click their way from page to page.

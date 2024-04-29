@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Images | Implementation
+  title: Image | Implementation
 ---
 
 Enhance images by adding a variant style with a border or drop shadow.

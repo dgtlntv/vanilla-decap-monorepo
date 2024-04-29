@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Chips | Design guidelines
+  title: Chip | Design guidelines
 ---
 
 ## Overview

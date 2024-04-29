@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Lists | Figma
+  title: List | Figma
 ---
 
 # 🚧 WIP 🚧

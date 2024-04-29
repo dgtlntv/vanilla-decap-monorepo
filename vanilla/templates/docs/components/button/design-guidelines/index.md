@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Buttons | Design guidelines
+  title: Button | Design guidelines
 ---
 
 ## Overview

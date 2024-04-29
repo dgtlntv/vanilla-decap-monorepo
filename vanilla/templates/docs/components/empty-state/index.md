@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Empty states | Implementation
+  title: Empty state | Implementation
 ---
 
 State zero or the empty state is the moment in the app where there is no data to display in the UI. It is most commonly used when a new feature is developed or a user interacts with the page for the first time. It can also be used when all data is deleted or unavailable.

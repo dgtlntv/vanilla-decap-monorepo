@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Tables | Implementation
+  title: Table | Implementation
 ---
 
 Data tables are used to organize and display all information from a data set.

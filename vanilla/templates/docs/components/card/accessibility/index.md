@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Cards | Accessibility
+  title: Card | Accessibility
 ---
 
 ## How it works

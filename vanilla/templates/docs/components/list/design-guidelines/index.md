@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Lists | Design Guidelines
+  title: List | Design Guidelines
 ---
 
 # 🚧 WIP 🚧

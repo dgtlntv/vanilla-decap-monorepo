@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Breadcrumbs | Figma
+  title: Breadcrumb | Figma
 ---
 
 # 🚧 WIP 🚧

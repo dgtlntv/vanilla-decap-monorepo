@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Chips | Implementation
+  title: Chip | Implementation
 ---
 
 Use the chip component to display small actionable pieces of information.

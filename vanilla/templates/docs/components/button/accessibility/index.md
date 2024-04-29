@@ -1,7 +1,7 @@
 ---
 wrapper_template: _layouts/docs.html
 context:
-  title: Buttons | Accessibility
+  title: Button | Accessibility
   status: approved
 ---
 

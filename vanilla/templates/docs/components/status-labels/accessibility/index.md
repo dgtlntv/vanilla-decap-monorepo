@@ -1,7 +1,7 @@
 ---
 wrapper_template: '_layouts/docs.html'
 context:
-  title: Status labels | Accessibility
+  title: Status label | Accessibility
 ---
 
 ## How it works
