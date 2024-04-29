@@ -46,14 +46,14 @@ collections:
             name: 'status'
             widget: 'select'
             options:
-              - { label: 'Braindump', value: 'braindump' }
-              - { label: 'Draft', value: 'draft' }
-              - { label: 'Pending review', value: 'review' }
-              - { label: 'Approved', value: 'approved' }
-              - { label: 'Completed', value: 'completed' }
-              - { label: 'Rejected', value: 'rejected' }
-              - { label: 'Outdated', value: 'outdated' }
-              - { label: 'Deprecated', value: 'deprecated' }
+              - {label: 'Braindump', value: 'braindump'}
+              - {label: 'Draft', value: 'draft'}
+              - {label: 'Pending review', value: 'review'}
+              - {label: 'Approved', value: 'approved'}
+              - {label: 'Completed', value: 'completed'}
+              - {label: 'Rejected', value: 'rejected'}
+              - {label: 'Outdated', value: 'outdated'}
+              - {label: 'Deprecated', value: 'deprecated'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
     summary: '{{dirname}}'
     meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
@@ -72,24 +72,18 @@ collections:
         widget: object
         fields:
           - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Body', name: 'body', widget: 'markdown'}
-    summary: '{{dirname}}'
-    meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
-  - name: 'settings'
-    label: 'Settings'
-    label_singular: 'Setting'
-    folder: 'vanilla/templates/docs/settings'
-    create: true
-    slug: '{{context.title}}'
-    nested:
-      depth: 100
-    fields:
-      - label: 'Context'
-        name: 'context'
-        collapse: false
-        widget: object
-        fields:
-          - {label: 'Title', name: 'title', widget: 'string'}
+          - label: 'Status'
+            name: 'status'
+            widget: 'select'
+            options:
+              - {label: 'Braindump', value: 'braindump'}
+              - {label: 'Draft', value: 'draft'}
+              - {label: 'Pending review', value: 'review'}
+              - {label: 'Approved', value: 'approved'}
+              - {label: 'Completed', value: 'completed'}
+              - {label: 'Rejected', value: 'rejected'}
+              - {label: 'Outdated', value: 'outdated'}
+              - {label: 'Deprecated', value: 'deprecated'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
     summary: '{{dirname}}'
     meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
