@@ -4,4 +4,4 @@ context:
   title: Accordion | Figma
 ---
 
-# 🚧 WIP 🚧
+<button onclick="clipboard()"> </button>
