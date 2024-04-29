@@ -224,7 +224,7 @@ def utility_processor():
 
 @app.route('/')
 def forward():
-    return redirect("/docs/components/accordion", code=302)
+    return redirect("/docs/foundations/icons", code=302)
 
 template_finder_view = TemplateFinder.as_view("template_finder")
 
