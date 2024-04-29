@@ -12,6 +12,7 @@ import mistune
 import talisker.requests
 import requests
 import flask
+from flask import redirect
 import jinja2
 from canonicalwebteam.flask_base.app import FlaskBase
 from canonicalwebteam.templatefinder import TemplateFinder
@@ -221,56 +222,15 @@ def class_reference(component=None):
 def utility_processor():
     return {"class_reference": class_reference, "image": image_template}
 
+@app.route('/static/decap/index')
+def forward():
+    return redirect("/docs/components/accordion", code=302)
 
 template_finder_view = TemplateFinder.as_view("template_finder")
 
 @app.route('/static/decap/index')
 def decap():
     return app.send_static_file('decap/index.html')
-
-@app.route("/docs/examples")
-def examples_index():
-    return flask.render_template(
-        "docs/examples/index.html", examples=_get_examples()
-    )
-
-
-@app.route("/docs/examples/standalone")
-def standalone_examples_index():
-    return flask.render_template(
-        "docs/examples/standalone.html", examples=_get_examples()
-    )
-
-
-@app.route("/docs/examples/standalone/<path:example_path>")
-def standalone_example(example_path):
-    try:
-        return flask.render_template(
-            f"docs/examples/{example_path}.html", is_standalone=True
-        )
-    except jinja2.exceptions.TemplateNotFound:
-        return flask.abort(404)
-
-
-@app.route("/contribute")
-def contribute_index():
-    all_contributors = _get_contributors()
-    team_members = list(_get_team_members(all_contributors))
-    contributors = _filter_contributors(all_contributors)
-
-    response = flask.make_response(
-        flask.render_template(
-            "contribute.html",
-            team_members=team_members,
-            contributors=contributors,
-        )
-    )
-
-    response.cache_control.max_age = 86400
-    response.cache_control.public = True
-
-    return response
-
 
 app.add_url_rule("/", view_func=template_finder_view)
 app.add_url_rule(
