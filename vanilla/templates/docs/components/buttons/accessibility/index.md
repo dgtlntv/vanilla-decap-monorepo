@@ -1,7 +1,8 @@
 ---
-wrapper_template: '_layouts/docs.html'
+wrapper_template: _layouts/docs.html
 context:
   title: Buttons | Accessibility
+  status: approved
 ---
 
 ## How it works
