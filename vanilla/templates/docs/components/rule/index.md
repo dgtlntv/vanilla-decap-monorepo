@@ -1,9 +1,8 @@
 ---
-wrapper_template: '_layouts/docs.html'
+wrapper_template: _layouts/docs.html
 context:
   title: Rule | Implementation
 ---
-
 The rule component indicates the beginning of a new group of elements. This might be at the section level, or between more granular elements, like paragraphs.
 
 It "anchors" elements that are far apart, and at risk of appearing floating in space.
@@ -44,7 +43,7 @@ View example of a highlighted rule on dark background
 
 ## Import
 
-To add a rule into your project, copy the snippet below and include it in your main Sass file.
+To add a rule into your project, copy the snippet below and include it in your main SASS file.
 
 ```scss
 // import Vanilla and include base mixins
