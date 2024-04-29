@@ -96,14 +96,15 @@
                     'outdated': 'Outdated',
                     'deprecated': 'Deprecated'
                 } %}
-
-                {% if status in ['braindump', 'draft', 'review'] %}
-                    <div class="p-status-label p-status-label--caution">{{ status_labels[status] }}</div>
-                {% elif status in ['approved', 'completed'] %}
-                    <div class="p-status-label p-status-label--positive">{{ status_labels[status] }}</div>
-                {% elif status in ['outdated', 'deprecated'] %}
-                    <div class="p-status-label p-status-label--negative">{{ status_labels[status] }}</div>
-                {% endif %}
+                <div>
+                  {% if status in ['braindump', 'draft', 'review'] %}
+                      <div class="p-status-label p-status-label--caution">{{ status_labels[status] }}</div>
+                  {% elif status in ['approved', 'completed'] %}
+                      <div class="p-status-label p-status-label--positive">{{ status_labels[status] }}</div>
+                  {% elif status in ['outdated', 'deprecated'] %}
+                      <div class="p-status-label p-status-label--negative">{{ status_labels[status] }}</div>
+                  {% endif %}
+                </div>
               </div>
               {% include "_layouts/_component_tabs.html" %}
               {% if not page_tabs %}
