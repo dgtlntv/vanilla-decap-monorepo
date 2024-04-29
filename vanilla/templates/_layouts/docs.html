@@ -59,20 +59,16 @@
                     </li>
                 {%- endmacro %}
 
-                <ul class="p-side-navigation__list">
+                
                 {% for item in sideNavigation %}
-
-                  <li class="p-side-navigation__item">
-                    <h3 class="p-side-navigation__heading">{{ item.heading | replace("{version}", version) }}</h3>
-                    <ul class="p-side-navigation__list">
-                      {% for subheading in item.subheadings %}
-                      {{ side_nav_item(subheading.url, subheading.title) }}
-                      {% endfor %}
-                    </ul>
-                  </li>
-
+                  <h3 class="p-side-navigation__heading">{{ item.heading | replace("{version}", version) }}</h3>
+                  <ul class="p-side-navigation__list">
+                    {% for subheading in item.subheadings %}
+                    {{ side_nav_item(subheading.url, subheading.title) }}
+                    {% endfor %}
+                  </ul>
                 {% endfor %}
-              </ul>
+              
               </div>
             </div>
       </aside>

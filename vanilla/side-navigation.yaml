@@ -1,9 +1,9 @@
 - heading: Foundations
   subheadings:
     - title: Icons
-      url: /docs/components/icons
+      url: /docs/foundations/icons
     - title: Typography
-      url: /docs/base/typography
+      url: /docs/foundations/typography
 - heading: Components
   subheadings:
     - title: Accordion
