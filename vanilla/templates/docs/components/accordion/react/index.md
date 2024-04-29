@@ -19,28 +19,32 @@ The sidebar accordion, used in listing pages or as navigation, can hold multiple
 
 ## Default
 
-<iframe
-  src="https://canonical.github.io/react-components/iframe.html?args=&id=accordion--default-story&viewMode=story"
-  width="800"
-  height="260"
-></iframe>
-
+<div>
+  <iframe
+    src="https://canonical.github.io/react-components/iframe.html?args=&id=accordion--default-story&viewMode=story"
+    width="800"
+    height="260"
+  / >
+</div>
 ## External state
 
 The expanded accordion section can be controlled by external state.
 
-<iframe
-  src="https://canonical.github.io/react-components/iframe.html?args=&id=accordion--external-state&viewMode=story"
-  width="800"
-  height="260"
-></iframe>
-
+<div>
+  <iframe
+    src="https://canonical.github.io/react-components/iframe.html?args=&id=accordion--external-state&viewMode=story"
+    width="800"
+    height="260"
+  / >
+</div>
 ## Headings
 
 `titleElement` prop can be used to define heading element for section titles.
 
-<iframe
-  src="https://canonical.github.io/react-components/iframe.html?args=&id=accordion--headings&viewMode=story"
-  width="800"
-  height="260"
-></iframe>
+<div>
+  <iframe
+    src="https://canonical.github.io/react-components/iframe.html?args=&id=accordion--headings&viewMode=story"
+    width="800"
+    height="260"
+  / >
+</div>
