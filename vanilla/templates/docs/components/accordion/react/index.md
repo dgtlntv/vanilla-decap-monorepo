@@ -19,11 +19,11 @@ The sidebar accordion, used in listing pages or as navigation, can hold multiple
 
 ## Default
 
-<iframe
-  src='https://canonical.github.io/react-components/iframe.html?args=&id=accordion--default-story&viewMode=story'
-  width='800'
-  height='260'
-></iframe>
+&lt;iframe
+src='https://canonical.github.io/react-components/iframe.html?args=&id=accordion--default-story&viewMode=story'
+width='800'
+height='260'
+&gt;&lt;/iframe&gt;
 
 ## External state
 
