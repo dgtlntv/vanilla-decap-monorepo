@@ -203,7 +203,7 @@ def global_template_context():
 
 @app.template_filter()
 def markdown(text):
-    return mistune.markdown(text)
+    return markupsafe.Markup(mistune.markdown(text))
 
 
 def class_reference(component=None):
