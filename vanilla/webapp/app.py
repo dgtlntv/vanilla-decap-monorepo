@@ -222,7 +222,7 @@ def class_reference(component=None):
 def utility_processor():
     return {"class_reference": class_reference, "image": image_template}
 
-@app.route('/static/decap/index')
+@app.route('/')
 def forward():
     return redirect("/docs/components/accordion", code=302)
 
