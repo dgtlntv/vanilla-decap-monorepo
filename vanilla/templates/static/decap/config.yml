@@ -42,6 +42,18 @@ collections:
         widget: object
         fields:
           - {label: 'Title', name: 'title', widget: 'string'}
+      - label: 'Status'
+        name: 'status'
+        widget: 'select'
+        options:
+          - { label: 'Braindump', value: 'braindump' }
+          - { label: 'Draft', value: 'draft' }
+          - { label: 'Pending review', value: 'review' }
+          - { label: 'Approved', value: 'approved' }
+          - { label: 'Completed', value: 'completed' }
+          - { label: 'Rejected', value: 'rejected' }
+          - { label: 'Outdated', value: 'outdated' }
+          - { label: 'Deprecated', value: 'deprecated' }
       - {label: 'Body', name: 'body', widget: 'markdown'}
     summary: '{{dirname}}'
     meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
