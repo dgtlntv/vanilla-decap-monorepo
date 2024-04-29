@@ -1,4 +1,13 @@
-# Settings: accessibility, design_guidelines
+foundations/icon:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+foundations/typography:
+  accessibility: True
+  design_guidelines: True
+  react: False
+  figma: True
 
 components/accordion:
   accessibility: True
@@ -10,12 +19,12 @@ components/badge:
   design_guidelines: True
   react: True
   figma: True
-components/breadcrumbs:
+components/breadcrumb:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-components/buttons:
+components/button:
   accessibility: True
   design_guidelines: True
   react: True
@@ -25,12 +34,47 @@ components/card:
   design_guidelines: True
   react: True
   figma: True
+components/checkbox:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 components/chip:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
+components/code:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 components/contextual-menu:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+components/datalist:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+components/divider:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+components/empty-state:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+components/equal-height-row:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+components/fieldset:
   accessibility: True
   design_guidelines: True
   react: True
@@ -45,17 +89,27 @@ components/heading-icon:
   design_guidelines: True
   react: True
   figma: True
-components/icons:
+components/image:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-components/links:
+components/input:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-components/lists:
+components/link:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+components/list:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+components/list-tree:
   accessibility: True
   design_guidelines: True
   react: True
@@ -70,7 +124,17 @@ components/matrix:
   design_guidelines: True
   react: True
   figma: True
+components/media-object:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 components/modal:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+components/muted-heading:
   accessibility: True
   design_guidelines: True
   react: True
@@ -95,12 +159,47 @@ components/pull-quote:
   design_guidelines: True
   react: True
   figma: True
+components/radio:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+components/range:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+components/rule:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+components/search-and-filter:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 components/search-box:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
+components/section:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 components/segmented-control:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+components/select:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+components/separator:
   accessibility: True
   design_guidelines: True
   react: True
@@ -125,12 +224,45 @@ components/switch:
   design_guidelines: True
   react: True
   figma: True
-components/tabs:
+components/table-of-contents:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-components/tooltips:
+components/tab:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+components/textarea:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+components/tooltip:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+
+complex-components/form:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+complex-components/table:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+
+patterns/example:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+
+pages/example:
   accessibility: True
   design_guidelines: True
   react: True

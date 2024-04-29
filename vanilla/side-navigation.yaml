@@ -1,55 +1,53 @@
-- heading: Base elements
+- heading: Foundations
   subheadings:
-    - title: Code
-      url: /docs/base/code
-    - title: Forms
-      url: /docs/base/forms
-    - title: Reset
-      url: /docs/base/reset
-    - title: Separators
-      url: /docs/base/separators
-    - title: Tables
-      url: /docs/base/tables
+    - title: Icons
+      url: /docs/components/icons
     - title: Typography
       url: /docs/base/typography
-    - title: Paper background
-      url: /docs/base/paper
 - heading: Components
   subheadings:
     - title: Accordion
       url: /docs/components/accordion
-    - title: Equal height row
-      url: /docs/components/equal-height-row
     - title: Badge
       url: /docs/components/badge
-    - title: Breadcrumbs
-      url: /docs/components/breadcrumbs
-    - title: Buttons
-      url: /docs/components/buttons
-    - title: Cards
+    - title: Breadcrumb
+      url: /docs/components/breadcrumb
+    - title: Button
+      url: /docs/components/button
+    - title: Card
       url: /docs/components/card
-    - title: Chips
+    - title: Checkbox
+      url: /docs/components/checkbox
+    - title: Chip
       url: /docs/components/chip
+    - title: Code
+      url: /docs/components/code
     - title: Contextual menu
       url: /docs/components/contextual-menu
+    - title: Datalist
+      url: /docs/components/datalist
     - title: Divider
       url: /docs/components/divider
     - title: Empty state
       url: /docs/components/empty-state
+    - title: Equal height row
+      url: /docs/components/equal-height-row
+    - title: Fieldset
+      url: /docs/components/fieldset
     - title: Grid
       url: /docs/components/grid
     - title: Heading icon
       url: /docs/components/heading-icon
-    - title: Icons
-      url: /docs/components/icons
-    - title: Images
-      url: /docs/components/images
-    - title: Links
-      url: /docs/components/links
+    - title: Image
+      url: /docs/components/image
+    - title: Input
+      url: /docs/components/input
+    - title: Link
+      url: /docs/components/link
     - title: List tree
       url: /docs/components/list-tree
-    - title: Lists
-      url: /docs/components/lists
+    - title: List
+      url: /docs/components/list
     - title: Logo section
       url: /docs/components/logo-section
     - title: Matrix
@@ -62,26 +60,34 @@
       url: /docs/components/muted-heading
     - title: Navigation
       url: /docs/components/navigation
-    - title: Notifications
+    - title: Notification
       url: /docs/components/notification
     - title: Pagination
       url: /docs/components/pagination
-    - title: Quotes
+    - title: Pull quote
       url: /docs/components/pull-quote
+    - title: Radio
+      url: /docs/components/radio
+    - title: Range
+      url: /docs/components/range
     - title: Rule
       url: /docs/components/rule
     - title: Search and filter
       url: /docs/components/search-and-filter
     - title: Search box
       url: /docs/components/search-box
-    - title: Sections
+    - title: Section
       url: /docs/components/section
     - title: Segmented control
       url: /docs/components/segmented-control
+    - title: Select
+      url: /docs/components/select
+    - title: Separator
+      url: /docs/components/separator
     - title: Slider
       url: /docs/components/slider
-    - title: Status labels
-      url: /docs/components/status-labels
+    - title: Status label
+      url: /docs/components/status-label
     - title: Strip
       url: /docs/components/strip
     - title: Suru
@@ -90,10 +96,26 @@
       url: /docs/components/switch
     - title: Table of contents
       url: /docs/components/table-of-contents
-    - title: Tabs
-      url: /docs/components/tabs
-    - title: Tooltips
-      url: /docs/components/tooltips
+    - title: Tab
+      url: /docs/components/tab
+    - title: Textarea
+      url: /docs/components/textarea
+    - title: Tooltip
+      url: /docs/components/tooltip
+- heading: Complex components
+  subheadings:
+    - title: Form
+      url: /docs/complex-components/form
+    - title: Table
+      url: /docs/complex-components/table
+- heading: Patterns
+  subheadings:
+    - title: Example
+      url: /docs/patterns/example
+- heading: Pages
+  subheadings:
+    - title: Example
+      url: /docs/pages/example
 - heading: Layouts
   subheadings:
     - title: Application
@@ -108,3 +130,7 @@
       url: /docs/layouts/full-width
     - title: Sticky footer
       url: /docs/layouts/sticky-footer
+- heading: Guidelines
+  subheadings:
+    - title: Example
+      url: /docs/guidelines/example
