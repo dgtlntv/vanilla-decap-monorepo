@@ -103,7 +103,7 @@ collections:
   - name: 'patterns'
     label: 'Patterns'
     label_singular: 'Pattern'
-    folder: 'vanilla/templates/docs/pattern'
+    folder: 'vanilla/templates/docs/patterns'
     create: true
     slug: '{{context.title}}'
     nested:
@@ -133,7 +133,7 @@ collections:
   - name: 'pages'
     label: 'Pages'
     label_singular: 'Page'
-    folder: 'vanilla/templates/docs/page'
+    folder: 'vanilla/templates/docs/pages'
     create: true
     slug: '{{context.title}}'
     nested:
