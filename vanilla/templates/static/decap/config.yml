@@ -10,9 +10,10 @@ backend:
 media_folder: 'images/uploads' # Media files will be stored in the repo under images/uploads
 
 collections:
-  - name: 'base'
-    label: 'Base'
-    folder: 'vanilla/templates/docs/base'
+  - name: 'foundations'
+    label: 'Foundations'
+    label_singular: 'Foundation'
+    folder: 'vanilla/templates/docs/foundations'
     create: true
     slug: '{{context.title}}'
     nested:
@@ -24,6 +25,138 @@ collections:
         widget: object
         fields:
           - {label: 'Title', name: 'title', widget: 'string'}
+          - label: 'Status'
+            name: 'status'
+            widget: 'select'
+            options:
+              - {label: 'Braindump', value: 'braindump'}
+              - {label: 'Draft', value: 'draft'}
+              - {label: 'Pending review', value: 'review'}
+              - {label: 'Approved', value: 'approved'}
+              - {label: 'Completed', value: 'completed'}
+              - {label: 'Rejected', value: 'rejected'}
+              - {label: 'Outdated', value: 'outdated'}
+              - {label: 'Deprecated', value: 'deprecated'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+    summary: '{{dirname}}'
+    meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
+  - name: 'components'
+    label: 'Components'
+    label_singular: 'Component'
+    folder: 'vanilla/templates/docs/components'
+    create: true
+    slug: '{{context.title}}'
+    nested:
+      depth: 100
+    fields:
+      - label: 'Context'
+        name: 'context'
+        collapse: false
+        widget: object
+        fields:
+          - {label: 'Title', name: 'title', widget: 'string'}
+          - label: 'Status'
+            name: 'status'
+            widget: 'select'
+            options:
+              - {label: 'Braindump', value: 'braindump'}
+              - {label: 'Draft', value: 'draft'}
+              - {label: 'Pending review', value: 'review'}
+              - {label: 'Approved', value: 'approved'}
+              - {label: 'Completed', value: 'completed'}
+              - {label: 'Rejected', value: 'rejected'}
+              - {label: 'Outdated', value: 'outdated'}
+              - {label: 'Deprecated', value: 'deprecated'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+    summary: '{{dirname}}'
+    meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
+  - name: 'complex-components'
+    label: 'Complex components'
+    label_singular: 'Complex component'
+    folder: 'vanilla/templates/docs/complex-components'
+    create: true
+    slug: '{{context.title}}'
+    nested:
+      depth: 100
+    fields:
+      - label: 'Context'
+        name: 'context'
+        collapse: false
+        widget: object
+        fields:
+          - {label: 'Title', name: 'title', widget: 'string'}
+          - label: 'Status'
+            name: 'status'
+            widget: 'select'
+            options:
+              - {label: 'Braindump', value: 'braindump'}
+              - {label: 'Draft', value: 'draft'}
+              - {label: 'Pending review', value: 'review'}
+              - {label: 'Approved', value: 'approved'}
+              - {label: 'Completed', value: 'completed'}
+              - {label: 'Rejected', value: 'rejected'}
+              - {label: 'Outdated', value: 'outdated'}
+              - {label: 'Deprecated', value: 'deprecated'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+    summary: '{{dirname}}'
+    meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
+  - name: 'patterns'
+    label: 'Patterns'
+    label_singular: 'Pattern'
+    folder: 'vanilla/templates/docs/pattern'
+    create: true
+    slug: '{{context.title}}'
+    nested:
+      depth: 100
+    fields:
+      - label: 'Context'
+        name: 'context'
+        collapse: false
+        widget: object
+        fields:
+          - {label: 'Title', name: 'title', widget: 'string'}
+          - label: 'Status'
+            name: 'status'
+            widget: 'select'
+            options:
+              - {label: 'Braindump', value: 'braindump'}
+              - {label: 'Draft', value: 'draft'}
+              - {label: 'Pending review', value: 'review'}
+              - {label: 'Approved', value: 'approved'}
+              - {label: 'Completed', value: 'completed'}
+              - {label: 'Rejected', value: 'rejected'}
+              - {label: 'Outdated', value: 'outdated'}
+              - {label: 'Deprecated', value: 'deprecated'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+    summary: '{{dirname}}'
+    meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
+  - name: 'pages'
+    label: 'Pages'
+    label_singular: 'Page'
+    folder: 'vanilla/templates/docs/page'
+    create: true
+    slug: '{{context.title}}'
+    nested:
+      depth: 100
+    fields:
+      - label: 'Context'
+        name: 'context'
+        collapse: false
+        widget: object
+        fields:
+          - {label: 'Title', name: 'title', widget: 'string'}
+          - label: 'Status'
+            name: 'status'
+            widget: 'select'
+            options:
+              - {label: 'Braindump', value: 'braindump'}
+              - {label: 'Draft', value: 'draft'}
+              - {label: 'Pending review', value: 'review'}
+              - {label: 'Approved', value: 'approved'}
+              - {label: 'Completed', value: 'completed'}
+              - {label: 'Rejected', value: 'rejected'}
+              - {label: 'Outdated', value: 'outdated'}
+              - {label: 'Deprecated', value: 'deprecated'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
     summary: '{{dirname}}'
     meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
@@ -57,10 +190,10 @@ collections:
       - {label: 'Body', name: 'body', widget: 'markdown'}
     summary: '{{dirname}}'
     meta: {path: {widget: string, label: 'Path', index_file: 'index'}}
-  - name: 'components'
-    label: 'Components'
-    label_singular: 'Component'
-    folder: 'vanilla/templates/docs/components'
+  - name: 'guidelines'
+    label: 'Guidelines'
+    label_singular: 'Guideline'
+    folder: 'vanilla/templates/docs/guidelines'
     create: true
     slug: '{{context.title}}'
     nested:
