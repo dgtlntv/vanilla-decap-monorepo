@@ -82,6 +82,7 @@ context:
 </div>
 </div>
 </div>
+<br>
 
 - - -
 
@@ -94,72 +95,126 @@ context:
 <div class="row u-equal-height">
 <div class="col-4 p-card u-no-padding">
 
-![](/images/uploads/0.jpg "Start by opening the Google sheet")
+![](/images/uploads/7.jpg "go to dgtln.tv/admin and log in")
 
 <div class="p-card__inner">
-1.1. Start by opening the <a href="https://docs.google.com/spreadsheets/d/19HJPsX651deboiJXcbPsJRU8rt90fJm6GCf5t77kDJc" target="_blank" rel="noreferrer noopener">Google sheet <i class="p-icon--external-link" style="textcolor: link-text,"></i></a>
+2.1. Go to <a herf="https://dgtln.tv/admin" target="_blank" rel="noreferrer noopener">dgtln.tv/admin</a> and log in
 </div>
 </div>
 <!-- -->
 <div class="col-4 p-card u-no-padding">
 
-![](/images/uploads/1.jpg " Assign yourself to one of the rows")
+![](/images/uploads/8.jpg "select the correct component from the side menu")
 
 <div class="p-card__inner">
-1.2. Assign yourself to one of the rows
+2.2. Select the correct component from the side menu
 </div>
 </div>
 <!-- -->
 <div class="col-4 p-card u-no-padding">
 
-![](/images/uploads/2.jpg "open the Google Doc file from the Design guidelines column")
+![](/images/uploads/9.jpg "Open the file with the /design-guidelines")
 
 <div class="p-card__inner">
-1.3. Open the Google Doc file from the corresponding \`Design guidelines\` column
-
-</div>
-</div>
-<!-- -->
-<div class="col-4 p-card u-no-padding">
-
-![](/images/uploads/3.jpg "go to Extensions > Add-ons > Get add-ons")
-
-<div class="p-card__inner">
-1.4. Go to \`Extensions\` > \`Add-ons\` > \`Get add-ons\`
+2.3. Open the file with the <code>design-guidelines</code>
 
 </div>
 </div>
 <!-- -->
 <div class="col-4 p-card u-no-padding">
 
-![](/images/uploads/4.jpg "Install the Docs™ to Markdown add-on")
+![](/images/uploads/10.jpg "Set the status to Braindump and switch the editor to Markdown")
 
 <div class="p-card__inner">
-1.5. Install the \`Docs™ to Markdown\` add-on
+2.4. Set the status to <code>Braindump</code> and switch the editor to <code>Markdown</code>
 
 </div>
 </div>
 <!-- -->
 <div class="col-4 p-card u-no-padding">
 
-![](/images/uploads/5.jpg "Open the extension")
+![](/images/uploads/11.jpg "Paste the markdown text you copied earlier from the Google Doc")
 
 <div class="p-card__inner">
-1.6. Open the extension
+2.5. Paste the markdown text you copied earlier from the Google Doc
 
 </div>
 </div>
 <!-- -->
 <div class="col-4 p-card u-no-padding">
 
-![](/images/uploads/6.jpg "Press the Markdown command and copy generated text")
+![](/images/uploads/12.jpg "Check for red error paragraphs and make sure to remove them")
 
 <div class="p-card__inner">
-1.7. Press the Markdown command and copy generated text
+2.6. Check for <span style="color: red">red error</span> paragraphs and make sure to remove them
 
 </div>
 </div>
 </div>
+
+<br>
+
+- - -
+
+<br>
+<br>
+
+## Step 3: Add images
+
+<br>
+<div class="row u-equal-height">
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/13.jpg)
+
+<div class="p-card__inner">
+3.1. Go back to the Google Doc and download the document as the <code>Web Page</code>
+</div>
+</div>
+<!-- -->
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/14.jpg)
+
+<div class="p-card__inner">
+3.2. Switch to <code>Rich Text</code> and upload the images that are located in the recently downloaded folder
+</div>
+</div>
+
+</div>
+
+<br>
+
+- - -
+
+<br>
+<br>
+
+## Step 4: Add images
+
+<br>
+<div class="row u-equal-height">
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/16.jpg "Go to Github fork of the repository and make a pull request")
+
+<div class="p-card__inner">
+4.1. Go to Github fork of the repository and make a pull request
+</div>
+</div>
+<!-- -->
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/18.jpg "Change the status in the Google Sheet to Done")
+
+<div class="p-card__inner">
+4.2. Change the status in the Google Sheet to <code>Done</code>
+</div>
+</div>
+
+</div>
+
+<br>
 
 - - -
 
