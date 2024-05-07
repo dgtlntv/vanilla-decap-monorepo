@@ -3,8 +3,18 @@ context:
   title: Contributing
   status: draft
 ---
+<br>
+
+- - -
+
+<br>
+<br>
+
+## Step 1: Copy the markdown text
+
+<br>
 <div class="row u-equal-height">
-<div class="col-5 p-card u-no-padding">
+<div class="col-4 p-card u-no-padding">
 
 ![](/images/uploads/0.jpg "Start by opening the Google sheet")
 
@@ -12,9 +22,146 @@ context:
 1.1. Start by opening the <a href="https://docs.google.com/spreadsheets/d/19HJPsX651deboiJXcbPsJRU8rt90fJm6GCf5t77kDJc" target="_blank" rel="noreferrer noopener">Google sheet <i class="p-icon--external-link" style="textcolor: link-text,"></i></a>
 </div>
 </div>
+<!-- -->
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/1.jpg " Assign yourself to one of the rows")
+
+<div class="p-card__inner">
+1.2. Assign yourself to one of the rows
+</div>
+</div>
+<!-- -->
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/2.jpg "open the Google Doc file from the Design guidelines column")
+
+<div class="p-card__inner">
+1.3. Open the Google Doc file from the corresponding <code>Design guidelines</code> column
+
+</div>
+</div>
+<!-- -->
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/3.jpg "go to Extensions > Add-ons > Get add-ons")
+
+<div class="p-card__inner">
+1.4. Go to <code>Extensions</code> > <code>Add-ons</code> > <code>Get add-ons</code>
+
+</div>
+</div>
+<!-- -->
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/4.jpg "Install the Docs™ to Markdown add-on")
+
+<div class="p-card__inner">
+1.5. Install the <code>Docs™ to Markdown</code> add-on
+
+</div>
+</div>
+<!-- -->
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/5.jpg "Open the extension")
+
+<div class="p-card__inner">
+1.6. Open the extension
+
+</div>
+</div>
+<!-- -->
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/6.jpg "Press the Markdown command and copy generated text")
+
+<div class="p-card__inner">
+1.7. Press the Markdown command and copy generated text
+
+</div>
+</div>
 </div>
 
----
+- - -
+
+<br>
+<br>
+
+## Step 2: Log in and paste the text
+
+<br>
+<div class="row u-equal-height">
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/0.jpg "Start by opening the Google sheet")
+
+<div class="p-card__inner">
+1.1. Start by opening the <a href="https://docs.google.com/spreadsheets/d/19HJPsX651deboiJXcbPsJRU8rt90fJm6GCf5t77kDJc" target="_blank" rel="noreferrer noopener">Google sheet <i class="p-icon--external-link" style="textcolor: link-text,"></i></a>
+</div>
+</div>
+<!-- -->
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/1.jpg " Assign yourself to one of the rows")
+
+<div class="p-card__inner">
+1.2. Assign yourself to one of the rows
+</div>
+</div>
+<!-- -->
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/2.jpg "open the Google Doc file from the Design guidelines column")
+
+<div class="p-card__inner">
+1.3. Open the Google Doc file from the corresponding \`Design guidelines\` column
+
+</div>
+</div>
+<!-- -->
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/3.jpg "go to Extensions > Add-ons > Get add-ons")
+
+<div class="p-card__inner">
+1.4. Go to \`Extensions\` > \`Add-ons\` > \`Get add-ons\`
+
+</div>
+</div>
+<!-- -->
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/4.jpg "Install the Docs™ to Markdown add-on")
+
+<div class="p-card__inner">
+1.5. Install the \`Docs™ to Markdown\` add-on
+
+</div>
+</div>
+<!-- -->
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/5.jpg "Open the extension")
+
+<div class="p-card__inner">
+1.6. Open the extension
+
+</div>
+</div>
+<!-- -->
+<div class="col-4 p-card u-no-padding">
+
+![](/images/uploads/6.jpg "Press the Markdown command and copy generated text")
+
+<div class="p-card__inner">
+1.7. Press the Markdown command and copy generated text
+
+</div>
+</div>
+</div>
+
+- - -
 
 <br>
 <br>
