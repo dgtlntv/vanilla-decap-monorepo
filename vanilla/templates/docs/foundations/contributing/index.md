@@ -213,6 +213,11 @@ context:
 </div>
 
 </div>
+<br>
+<br>
+<br>
+
+<!--
 
 <br>
 
@@ -353,3 +358,4 @@ context:
 ![](/images/uploads/18.jpg)
 
 4.2. Change the status in the Google Sheet to `Done`
+-->
