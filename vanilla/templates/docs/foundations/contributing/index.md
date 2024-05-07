@@ -165,7 +165,7 @@ context:
 <div class="row u-equal-height">
 <div class="col-4 p-card u-no-padding">
 
-![](/images/uploads/13.jpg)
+![](/images/uploads/13.jpg "Go back to the Google Doc and download the document as the Web Page")
 
 <div class="p-card__inner">
 3.1. Go back to the Google Doc and download the document as the <code>Web Page</code>
@@ -174,7 +174,7 @@ context:
 <!-- -->
 <div class="col-4 p-card u-no-padding">
 
-![](/images/uploads/14.jpg)
+![](/images/uploads/14.jpg "Switch to Rich Text and upload the images that are located in the recently downloaded folder")
 
 <div class="p-card__inner">
 3.2. Switch to <code>Rich Text</code> and upload the images that are located in the recently downloaded folder
@@ -190,7 +190,7 @@ context:
 <br>
 <br>
 
-## Step 4: Add images
+## Step 4: Save and make the Pull request
 
 <br>
 <div class="row u-equal-height">
@@ -341,7 +341,7 @@ context:
 
 <br>
 
-## Step 4: Add images
+## Step 4: Save and make the Pull request
 
 ![](/images/uploads/16.jpg)
 
