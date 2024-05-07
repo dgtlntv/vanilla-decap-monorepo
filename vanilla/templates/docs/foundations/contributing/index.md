@@ -1,7 +1,7 @@
 ---
 context:
   title: Contributing
-  status: draft
+  status: completed
 ---
 <br>
 
