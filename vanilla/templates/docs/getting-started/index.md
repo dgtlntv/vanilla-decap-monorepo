@@ -15,7 +15,7 @@ context:
 <img src="/static/images/0.jpg">
 
 <div class="p-card__inner">
-1.1. Start by opening the <a href="https://docs.google.com/spreadsheets/d/19HJPsX651deboiJXcbPsJRU8rt90fJm6GCf5t77kDJc" target="_blank" rel="noreferrer noopener">Google sheet <i class="p-icon--external-link" style="textcolor: link-text,"></i></a>
+1.1. Start by opening the <a href="https://docs.google.com/spreadsheets/d/19HJPsX651deboiJXcbPsJRU8rt90fJm6GCf5t77kDJc" target="_blank" rel="noreferrer noopener">Google sheet <i class="p-icon--external-link"></i></a>
 </div>
 </div>
 <!-- -->
@@ -79,7 +79,7 @@ context:
 
 <br>
 
-## Step 2: Log in and paste the text
+## Step 2: Log in and fork the repository
 
 <br>
 
@@ -88,15 +88,44 @@ context:
 <img src="/static/images/7.jpg">
 
 <div class="p-card__inner">
-2.1. Go to <a herf="https://dgtln.tv/admin" target="_blank" rel="noreferrer noopener">dgtln.tv/admin</a> and log in
+2.1. Go to <a href="https://dgtln.tv/admin" target="_blank" rel="noreferrer">dgtln.tv/admin</a><i class="p-icon--external-link"></i> and log in
 </div>
 </div>
 <!-- -->
 <div class="col-4 p-card u-no-padding">
+<img src="/static/images/7.1.jpg">
+
+<div class="p-card__inner">
+2.2. Authorize dgtlntv
+</div>
+</div>
+<!-- -->
+<div class="col-4 p-card u-no-padding">
+<img src="/static/images/7.2.jpg">
+
+<div class="p-card__inner">
+2.3. Fork the repo
+
+</div>
+</div>
+</div>
+
+<br>
+
+---
+
+<br>
+
+## Step 3: Paste the text
+
+<br>
+
+<div class="row u-equal-height">
+<div class="col-4 p-card u-no-padding">
 <img src="/static/images/8.jpg">
 
 <div class="p-card__inner">
-2.2. Select the correct component from the side menu
+3.1. Select the correct component from the side menu
 </div>
 </div>
 <!-- -->
@@ -104,7 +133,7 @@ context:
 <img src="/static/images/9.jpg">
 
 <div class="p-card__inner">
-2.3. Open the file with the <code>design-guidelines</code>
+3.2. Open the file with the <code>design-guidelines</code>
 
 </div>
 </div>
@@ -113,7 +142,7 @@ context:
 <img src="/static/images/10.jpg">
 
 <div class="p-card__inner">
-2.4. Set the status to <code>Braindump</code> and switch the editor to <code>Markdown</code>
+3.3. Set the status to <code>Braindump</code> and switch the editor to <code>Markdown</code>
 
 </div>
 </div>
@@ -122,7 +151,7 @@ context:
 <img src="/static/images/11.jpg">
 
 <div class="p-card__inner">
-2.5. Paste the markdown text you copied earlier from the Google Doc
+3.4. Paste the markdown text you copied earlier from the Google Doc
 
 </div>
 </div>
@@ -131,7 +160,7 @@ context:
 <img src="/static/images/12.jpg">
 
 <div class="p-card__inner">
-2.6. Check for <span style="color: red">red error</span> paragraphs and make sure to remove them
+3.5. Check for <span style="color: red">red error</span> paragraphs and make sure to remove them
 
 </div>
 </div>
@@ -143,7 +172,7 @@ context:
 
 <br>
 
-## Step 3: Add images
+## Step 4: Add images
 
 <br>
 <div class="row u-equal-height">
@@ -151,7 +180,7 @@ context:
 <img src="/static/images/13.jpg">
 
 <div class="p-card__inner">
-3.1. Go back to the Google Doc and download the document as the <code>Web Page</code>
+4.1. Go back to the Google Doc and download the document as the <code>Web Page</code>
 </div>
 </div>
 <!-- -->
@@ -159,7 +188,7 @@ context:
 <img src="/static/images/14.jpg">
 
 <div class="p-card__inner">
-3.2. Switch to <code>Rich Text</code> and upload the images that are located in the recently downloaded folder
+4.2. Switch to <code>Rich Text</code> and upload the images that are located in the recently downloaded folder
 </div>
 </div>
 
@@ -171,7 +200,7 @@ context:
 
 <br>
 
-## Step 4: Save and make the Pull request
+## Step 5: Save
 
 <br>
 <div class="row u-equal-height">
@@ -179,7 +208,7 @@ context:
 <img src="/static/images/16.jpg">
 
 <div class="p-card__inner">
-4.1. Go to Github fork of the repository and make a pull request
+5.1. Change the status to `In review` and `Save`
 </div>
 </div>
 <!-- -->
@@ -187,7 +216,7 @@ context:
 <img src="/static/images/17.jpg">
 
 <div class="p-card__inner">
-4.2. Change the status in the Google Sheet to <code>Done</code>
+5.2. Change the status in the Google Sheet to <code>Done</code>
 </div>
 </div>
 
