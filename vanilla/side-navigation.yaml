@@ -1,5 +1,7 @@
-    - title: Contributing
-      url: /docs/other
+- heading: Contributing
+  subheadings:
+    - title: Getting started
+      url: /docs/getting-started
 - heading: Foundations
   subheadings:
     - title: Icons
