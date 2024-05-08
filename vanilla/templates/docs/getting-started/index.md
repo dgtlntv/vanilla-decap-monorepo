@@ -208,7 +208,7 @@ context:
 <img src="/static/images/16.jpg">
 
 <div class="p-card__inner">
-5.1. Change the status to `In review` and `Save`
+5.1. Change the status to <code>In review</code> and <code>Save</code>
 </div>
 </div>
 <!-- -->
