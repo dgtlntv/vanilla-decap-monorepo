@@ -1,9 +1,4 @@
-foundations/icon:
-  accessibility: True
-  design_guidelines: True
-  react: True
-  figma: True
-foundations/typography:
+foundations/icons:
   accessibility: True
   design_guidelines: True
   react: False
@@ -25,11 +20,6 @@ components/breadcrumb:
   react: True
   figma: True
 components/button:
-  accessibility: True
-  design_guidelines: True
-  react: True
-  figma: True
-components/card:
   accessibility: True
   design_guidelines: True
   react: True
@@ -64,27 +54,12 @@ components/divider:
   design_guidelines: True
   react: True
   figma: True
-components/empty-state:
+components/hero:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-components/equal-height-row:
-  accessibility: True
-  design_guidelines: True
-  react: True
-  figma: True
-components/fieldset:
-  accessibility: True
-  design_guidelines: True
-  react: True
-  figma: True
-components/grid:
-  accessibility: True
-  design_guidelines: True
-  react: True
-  figma: True
-components/heading-icon:
+components/horizontal-rule:
   accessibility: True
   design_guidelines: True
   react: True
@@ -95,6 +70,11 @@ components/image:
   react: True
   figma: True
 components/input:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+components/key-value-pair:
   accessibility: True
   design_guidelines: True
   react: True
@@ -119,32 +99,7 @@ components/logo-section:
   design_guidelines: True
   react: True
   figma: True
-components/matrix:
-  accessibility: True
-  design_guidelines: True
-  react: True
-  figma: True
 components/media-object:
-  accessibility: True
-  design_guidelines: True
-  react: True
-  figma: True
-components/modal:
-  accessibility: True
-  design_guidelines: True
-  react: True
-  figma: True
-components/muted-heading:
-  accessibility: True
-  design_guidelines: True
-  react: True
-  figma: True
-components/navigation:
-  accessibility: True
-  design_guidelines: True
-  react: True
-  figma: True
-components/notification:
   accessibility: True
   design_guidelines: True
   react: True
@@ -154,7 +109,7 @@ components/pagination:
   design_guidelines: True
   react: True
   figma: True
-components/pull-quote:
+components/quote:
   accessibility: True
   design_guidelines: True
   react: True
@@ -164,27 +119,17 @@ components/radio:
   design_guidelines: True
   react: True
   figma: True
+components/radio-panel:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
 components/range:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-components/rule:
-  accessibility: True
-  design_guidelines: True
-  react: True
-  figma: True
-components/search-and-filter:
-  accessibility: True
-  design_guidelines: True
-  react: True
-  figma: True
 components/search-box:
-  accessibility: True
-  design_guidelines: True
-  react: True
-  figma: True
-components/section:
   accessibility: True
   design_guidelines: True
   react: True
@@ -199,11 +144,6 @@ components/select:
   design_guidelines: True
   react: True
   figma: True
-components/separator:
-  accessibility: True
-  design_guidelines: True
-  react: True
-  figma: True
 components/slider:
   accessibility: True
   design_guidelines: True
@@ -214,22 +154,17 @@ components/status-labels:
   design_guidelines: True
   react: True
   figma: True
-components/strip:
-  accessibility: True
-  design_guidelines: True
-  react: True
-  figma: True
 components/switch:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-components/table-of-contents:
+components/tab:
   accessibility: True
   design_guidelines: True
   react: True
   figma: True
-components/tab:
+components/table-of-contents:
   accessibility: True
   design_guidelines: True
   react: True
@@ -245,7 +180,32 @@ components/tooltip:
   react: True
   figma: True
 
-complex-components/form:
+complex-components/code-snippet:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+complex-components/modular-table:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+complex-components/navigation-bar:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+complex-components/notification:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+complex-components/search-and-filter:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+complex-components/side-navigation:
   accessibility: True
   design_guidelines: True
   react: True
@@ -256,7 +216,12 @@ complex-components/table:
   react: True
   figma: True
 
-patterns/example:
+patterns/card:
+  accessibility: True
+  design_guidelines: True
+  react: True
+  figma: True
+patterns/modal:
   accessibility: True
   design_guidelines: True
   react: True

@@ -1,0 +1,39 @@
+{% extends "_layouts/examples.html" %}
+{% block title %}Forms / Tick Elements{% endblock %}
+
+{% block standalone_css %}base{% endblock %}
+
+{% block content %}
+<p>This is not the recommended way to implement checkboxes and radio inputs in Vanilla. Please use the <a href="/docs/examples/patterns/forms/tick-variants">tick element patterns</a> instead.</p>
+<form>
+  <div>
+    <input type="checkbox" id="checkbox1" name="checkbox1" />
+    <label for="checkbox1">Checkbox 1</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="checkbox2" name="checkbox2" />
+    <label for="checkbox2">Checkbox 2</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="checkbox3" name="checkbox3" />
+    <label for="checkbox3">Checkbox 3</label>
+  </div>
+
+  <div>
+    <input type="radio" id="radio1" name="radio" />
+    <label for="radio1">Radio 1</label>
+  </div>
+
+  <div>
+    <input type="radio" id="radio2" name="radio" />
+    <label for="radio2">Radio 2</label>
+  </div>
+
+  <div>
+    <input type="radio" id="radio3" name="radio" />
+    <label for="radio3">Radio 3</label>
+  </div>
+</form>
+{% endblock %}

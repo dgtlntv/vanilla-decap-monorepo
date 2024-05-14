@@ -1,0 +1,42 @@
+{# used by the application layout example #}
+
+<nav class="p-side-navigation--icons" aria-label="Main">
+  <ul class="p-side-navigation__list">
+    <li class="p-side-navigation__item">
+      <a class="p-side-navigation__link" href="#" aria-current="page">
+        <i class="p-icon--information {% if is_dark %}is-light{% endif %} p-side-navigation__icon"></i>
+        <span class="p-side-navigation__label">Models</span>
+      </a>
+    </li>
+    <li class="p-side-navigation__item">
+      <a class="p-side-navigation__link" href="#">
+        <i class="p-icon--help {% if is_dark %}is-light{% endif %} p-side-navigation__icon"></i>
+        <span class="p-side-navigation__label">
+          Controllers
+        </span>
+        <span class="p-side-navigation__status">
+          <i class="p-icon--error {% if is_dark %}is-light{% endif %}"></i>
+        </span>
+      </a>
+    </li>
+  </ul>
+  <ul class="p-side-navigation__list is-fading-when-collapsed">
+    <li class="p-side-navigation__item">
+      <a href="#" class="p-side-navigation__link">Report a bug</a>
+    </li>
+    <li class="p-side-navigation__item">
+      <a href="#" class="p-side-navigation__link">Feedback</a>
+    </li>
+  </ul>
+  <ul class="p-side-navigation__list is-fading-when-collapsed">
+    <li class="p-side-navigation__item">
+      <span class="p-side-navigation__text">
+        Version 0.4.0
+        <div class="p-side-navigation__status">
+          <span class="p-status-label--caution">Beta</span>
+        </div>
+      </span>
+    </li>
+  </ul>
+</nav>
+

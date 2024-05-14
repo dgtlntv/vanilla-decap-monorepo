@@ -7,7 +7,7 @@ backend:
   open_authoring: true
   base_url: https://auth.dgtln.tv # Path to ext auth provider
 
-media_folder: 'images/uploads' # Media files will be stored in the repo under images/uploads
+media_folder: 'vanilla/templates/static/images' # Media files will be stored in the repo under images/uploads
 
 collections:
   - name: 'foundations'

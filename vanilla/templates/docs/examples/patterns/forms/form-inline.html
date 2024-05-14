@@ -1,0 +1,26 @@
+{% extends "_layouts/examples.html" %}
+{% block title %}Forms / Inline{% endblock %}
+
+{% block standalone_css %}patterns_forms{% endblock %}
+
+{% block content %}
+<form class="p-form p-form--inline">
+  <div class="p-form__group">
+    <label for="username-inline" class="p-form__label">Username</label>
+    <div class="p-form__control">
+      <input type="text" id="username-inline" class="p-form__control" name="username-inline" autocomplete="username" required aria-describedby="exampleHelpTextMessage">
+      <p class="p-form-help-text" id="exampleHelpTextMessage">
+        30 characters or fewer.
+      </p>
+    </div>
+  </div>
+  <div class="p-form__group p-form-validation is-error">
+    <label for="address-inline2" class="p-form__label">Email address</label>
+    <div class="p-form__control">
+      <input type="email" id="address-inline2" class="p-form-validation__input" required aria-invalid="true" aria-describedby="exampleErrorMessage" name="email" autocomplete="email">
+      <p class="p-form-validation__message" id="exampleErrorMessage">Please enter a valid email address.</p>
+    </div>
+  </div>
+  <button class="p-button--positive">Sign up</button>
+</form>
+{% endblock %}
