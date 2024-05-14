@@ -66,6 +66,13 @@ This is just some guidance of what content would be useful to cover as basic doc
 
 - Dos and don’ts: provide best practices of how the component should be used. For example, don’t use multiple primary buttons in a section of a page.
 
+<div>
+  <h5>After asking yourself those questions go to the link below</h5>
+  <div style="padding-left: 16px">
+    <p><a href="#step-4-log-in-and-fork-the-repository">go to next step</a></p>
+  </div>
+</div>
+
 ---
 
 <br>
