@@ -1,9 +1,9 @@
 ---
-wrapper_template: '_layouts/docs.html'
+wrapper_template: _layouts/docs.html
 context:
   title: Button | Design guidelines
+  status: braindump
 ---
-
 ## Overview
 
 Buttons are clickable elements used to perform actions.
@@ -16,12 +16,12 @@ Buttons are clickable elements used to perform actions.
 
 ### When to use
 
-- To communicate actions that can be taken by the user, such as submitting a form or starting a process
-- To allow interactions
+* To communicate actions that can be taken by the user, such as submitting a form or starting a process
+* To allow interactions
 
 ### When not to use
 
-- When it’s not the main call to action of a page, consider using links to navigate the user to other pages.
+* When it’s not the main call to action of a page, consider using links to navigate the user to other pages.
 
 ## Behaviour
 
@@ -97,16 +97,16 @@ A default button can be used to indicate a positive action that isn't necessaril
 
 ##### When to use
 
-- To indicate a positive and/or less prominent action
-- For secondary actions when a primary button for the main action is present
-- For high emphasis actions when a base button is present
-- For main actions when next to a link
+* To indicate a positive and/or less prominent action
+* For secondary actions when a primary button for the main action is present
+* For high emphasis actions when a base button is present
+* For main actions when next to a link
 
 ##### When not to use
 
-- Do not use as the main/prominent action when a primary button is also present
-- Do not use as a negative action
-- Do not use as a secondary action when a base button is present
+* Do not use as the main/prominent action when a primary button is also present
+* Do not use as a negative action
+* Do not use as a secondary action when a base button is present
 
 #### Examples
 
@@ -140,13 +140,13 @@ A base button can be used to discreetly indicate an action with less emphasis. I
 
 ##### When to use
 
-- For low emphasis actions
-- For secondary actions when a default or positive button for the main action is present
+* For low emphasis actions
+* For secondary actions when a default or positive button for the main action is present
 
 ##### When not to use
 
-- Do not use as the main/prominent action when a default or primary button is also present
-- Do not use as a negative action
+* Do not use as the main/prominent action when a default or primary button is also present
+* Do not use as a negative action
 
 #### Examples
 
@@ -166,14 +166,14 @@ A positive button can be used to indicate a positive action that is the main cal
 
 ##### When to use
 
-- To indicate a positive and/or prominent action
-- For primary actions when other buttons or links are present
+* To indicate a positive and/or prominent action
+* For primary actions when other buttons or links are present
 
 ##### When not to use
 
-- Do not use as a negative action
-- Do not use as a secondary action
-- Avoid using using multiple positive buttons per screen
+* Do not use as a negative action
+* Do not use as a secondary action
+* Avoid using using multiple positive buttons per screen
 
 #### Examples
 
@@ -199,14 +199,39 @@ A negative button can be used to indicate a negative action that is destructive 
 
 ##### When to use
 
-- For destructive or permanent action. For example, to delete or remove user’s data.
+* For destructive or permanent action. For example, to delete or remove user’s data.
 
 ##### When not to use
 
-- Do not use as a positive action
+* Do not use as a positive action
 
 #### Examples
 
 ##### ubuntu.com
 
 ![Example of negative button in modal to cancel subscription](https://assets.ubuntu.com/v1/9927ff12-23.png)
+
+## Brand
+
+
+
+![](/vanilla/templates/static/images/image14.png)
+
+### Definition
+
+A brand button can be used with the main colour of a brand.
+
+### Usage
+
+#### When to use
+
+* To indicate a positive action
+* For secondary actions when a primary button for the main action is present
+* For high-emphasis actions when a base button is present
+* For main actions when next to a link
+
+#### When not to use
+
+* Do not use as the main/prominent action when a primary button is also present
+* Do not use as a negative action
+* Do not use as a secondary action when a base button is present
