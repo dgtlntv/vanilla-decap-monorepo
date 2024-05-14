@@ -4,17 +4,6 @@ context:
   title: Key-value pair | Implementation
   status: braindump
 ---
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 5.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-<a href="#gdcalert5">alert5</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
 # Key/Value pair
 
 \[TOC]
@@ -159,8 +148,6 @@ Don’t use this variant when you have one or more of the following constraints:
 ![alt_text](/vanilla/templates/static/images/screen-shot-2024-05-14-at-10.31.11-am.png "ubuntu advantage table")
 
 #### Ubuntu advantage purchase
-
-
 
 ![alt_text](/vanilla/templates/static/images/screen-shot-2024-05-14-at-10.32.06-am.png "ubuntu advantage purchase")
 
