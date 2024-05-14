@@ -1,65 +1,41 @@
 ---
-wrapper_template: '_layouts/docs.html'
+wrapper_template: _layouts/docs.html
 context:
   title: Tab | Implementation
+  status: braindump
 ---
+## What is this
 
-Tabs organise and allow navigation between groups of content that are related and at the same level of hierarchy.
+Tabs are a navigation item used to group content of similar hierarchy on the same page.
 
-To select the active tab add the attribute `aria-selected="true"` and that list item will have the correct styling.
+###### Breakdown
 
-To horizontally align the tab list with other content, the whole tab set can be contained within a `.row` element to provide correct gutters.
+Each tab item is made of three components:
 
-There are two contexts in which this pattern can be used: as navigation, and as controls for panes of content.
+![](/vanilla/templates/static/images/tab-3.png)
 
-## Navigation
+1. The tab label
+2. The container
+3. The bottom border, for highlighting state change.
 
-The tabs pattern can be used as an alternative way to display a list of links.
+**States**
 
-<div class="embedded-example"><a href="/docs/examples/patterns/tabs/navigation" class="js-example">
-View example of the tabs navigation pattern
-</a></div>
+There are different tab states available:
 
-## Content
+![](/vanilla/templates/static/images/tabs-2.png)
 
-When you need to group a number of related blocks of content within an area on the page, the tabs pattern can be used, and will require JavaScript to handle interaction with each tab, and the toggling of their associated content panes.
+1. Default
+2. Selected
+3. Disabled
 
-<div class="p-notification--information is-inline">
-  <div class="p-notification__content">
-    <h5 class="p-notification__title">Accessibility:</h5>
-    <p class="p-notification__message">This variant of the tab pattern requires the use of JS to handle navigating between tabs using keyboard events i.e. arrow keys. For more information, see <a href="https://www.w3.org/TR/wai-aria-practices-1.1/examples/tabs/tabs-1/tabs.html">the W3's tab pattern recommendations</a>.</p>
-  </div>
-</div>
+**When to use it**
 
-<div class="embedded-example"><a href="/docs/examples/patterns/tabs/content" class="js-example">
-View example of the tabs content pattern
-</a></div>
+Tabs are used when users need to navigate between content in the same page.
 
-## Theming
+[](https://canonical.github.io/react-components/?path=/docs/tabs--default-story#tabs)
 
-Tabs use the default inherited theme of the page or parent element. To override the default add `is-dark` or `is-light` class to the contextual menu.
+**Do’s and Don'ts**[](https://canonical.github.io/react-components/?path=/docs/tabs--default-story#tabs)[](https://canonical.github.io/react-components/?path=/docs/tabs--default-story#tabs)[](https://canonical.github.io/react-components/?path=/docs/tabs--default-story#tabs)
 
-<div class="embedded-example"><a href="/docs/examples/patterns/tabs/content-dark" class="js-example">
-View example of the dark tabs content pattern
-</a></div>
-
-## Import
-
-To import just the standard tab component into your project, copy the snippet below and include it in your main Sass file.
-
-```scss
-// import Vanilla and include base mixins
-// this only needs to happen once in a given project
-@import 'vanilla-framework';
-@include vf-base;
-
-@include vf-p-tabs;
-```
-
-For more information see [Customising Vanilla](/docs/customising-vanilla/) in your projects, which includes overrides and importing instructions.
-
-## React
-
-You can use tabs in React by installing our react-component library and importing `Tab` component.
-
-[See the documentation for our React `Tab` component](https://canonical.github.io/react-components/?path=/docs/tabs--default-story#tabs)
+1. Use tabs to switch between items in the same context. Do not use tabs to navigate to different pages, and external links.
+2. Prioritise tabs by importance and frequency of use. Do not add tabs arbitrarily.
+3. Write clear and concise tab labels (1-2 words). Don’t give tab labels vague and complex names that are hard to understand at first glance.
