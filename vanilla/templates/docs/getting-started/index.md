@@ -27,7 +27,7 @@ context:
   </div>
   <!-- -->
   <div>
-    <h5>1.3. Is there documentation available?</h5>
+    <h5>1.3. Is there design documentation already available (aka a google doc in the cell in the spreadsheet)?</h5>
     <div style="padding-left: 16px">
       <p>if NO, <a href="#step-2-create-initial-documentation">go to step 2</a></p>
       <p>if YES, <a href="#step-3-copy-existing-documentation">go to step 3</a></p>
