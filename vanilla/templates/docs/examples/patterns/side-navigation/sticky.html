@@ -1,0 +1,15 @@
+{% extends "_layouts/examples.html" %}
+{% block title %}Side navigation / Sticky{% endblock %}
+
+{% block standalone_css %}patterns_side-navigation{% endblock %}
+
+{% block content %}
+
+{% with is_sticky = True %}
+  {% include "docs/examples/patterns/side-navigation/_docs.html" %}
+{% endwith %}
+
+<script>
+  {% include "docs/examples/patterns/side-navigation/_toggle_script.js" %}
+</script>
+{% endblock %}

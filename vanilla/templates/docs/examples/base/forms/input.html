@@ -1,0 +1,11 @@
+{% extends "_layouts/examples.html" %}
+{% block title %}Forms / Input{% endblock %}
+
+{% block standalone_css %}base{% endblock %}
+
+{% block content %}
+<form>
+  <label for="exampleTextInput">Email address</label>
+  <input type="email" id="exampleTextInput" name="exampleTextInput"  placeholder="example@canonical.com" autocomplete="email"/>
+</form>
+{% endblock %}

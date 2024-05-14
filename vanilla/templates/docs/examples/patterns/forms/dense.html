@@ -1,0 +1,20 @@
+{% extends "_layouts/examples.html" %}
+{% block title %}Forms / Dense{% endblock %}
+
+{% block standalone_css %}patterns_forms{% endblock %}
+
+{% block content %}
+<form>
+  <label for="username">Username</label>
+  <input type="text" id="username" class="is-dense" name="username" autocomplete="username" required>
+  <label for="email">Email</label>
+  <input type="text" id="email" class="is-dense" name="email" autocomplete="email" required>
+  <label for="exampleSelect">Ubuntu releases</label>
+  <select name="exampleSelect" id="exampleSelect" name="exampleSelect" class="is-dense">
+    <option value="" disabled="disabled" selected>Select an option</option>
+    <option value="1">Cosmic Cuttlefish</option>
+    <option value="2">Bionic Beaver</option>
+    <option value="3">Xenial Xerus</option>
+  </select>
+</form>
+{% endblock %}

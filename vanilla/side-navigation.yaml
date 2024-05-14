@@ -118,8 +118,6 @@
       url: /docs/layouts/brochure
     - title: Documentation
       url: /docs/layouts/documentation
-    - title: Documentation brochure
-      url: /docs/layouts/documentation-brochure
     - title: Equal-heights row
       url: /docs/layouts/equal-heights-row
     - title: Fluid breakout
