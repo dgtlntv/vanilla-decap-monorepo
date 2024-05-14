@@ -35,7 +35,7 @@ context:
   </div>
 </div>
 
-<br>gi
+<br>
 
 ---
 
@@ -45,12 +45,12 @@ context:
 
 <br>
 
-This is just some guidance of what content would be useful to cover as basic documentation. Feel free to change headings or structure the content in a way that makes sense to you. The bullets are some ideas what to cover. 
+This is just some guidance of what content would be useful to cover as basic documentation. Feel free to change headings or structure the content in a way that makes sense to you. The bullets are some ideas what to cover.
 
 **What is there?**
 
 - Break down the component into its parts (anatomy). What elements is it made of?
-    - Optional: make an illustration [Side nav example]
+  - Optional: make an illustration [Side nav example]
 - Are there multiple variants of this component? Variants are significantly different implementations of a component, for example, the cards in a blog or in Charmhub.
 - Figure out what aspects of the component can be configured (properties). For example, size, colour, show and hide parts, editable text, etc.
 
@@ -58,7 +58,7 @@ This is just some guidance of what content would be useful to cover as basic doc
 
 - What problem is this component solving? Write about the context in which it should be used.
 - In what situations should a designer pick this component?
-    - Are there any alternatives they could consider? When is this option more suitable than another? E.g. when a button should be used vs. when to use a link.
+  - Are there any alternatives they could consider? When is this option more suitable than another? E.g. when a button should be used vs. when to use a link.
 - If there are obvious situations where the designer should avoid using the component, list some don’ts. For example, in situations where there is consensus in the team or directions of when not to use a component.
 - Optional: provide examples of this component being used in our UIs.
 
