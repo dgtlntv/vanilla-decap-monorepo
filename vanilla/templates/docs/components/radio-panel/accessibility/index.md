@@ -10,7 +10,7 @@ From an accessibility standpoint, Radio Panels should behave identically to a st
 * Assistive technologies should operate the Radio Panel correctly
 * ARIA grouping should be applied to ensure the Panels in the Radio Panel component are seen as a form group by assistive technology
 * The Radio Panel should behave like a radio button group but with an extra layer of styling on top
-* Alternative text should be used to describe the icon or image if it adds context to the selection the user is making
+* Alternative text should be used to describe the icon or image if it adds context to the selection the user is making. Alternative text should not be redundant with the radio button label.
 
 Read also:
 
